@@ -1,8 +1,8 @@
 function Tag(props) {
   return (
-    <button className="m-auto h-fit rounded-4.75 bg-light-grey px-2 text-grey">
+    <a className="m-auto h-fit rounded-4.75 bg-light-grey px-2 text-grey" href={props.link}>
       {props.children}
-    </button>
+    </a>
   );
 }
 
