@@ -34,6 +34,7 @@ module.exports = {
       },
       spacing:{
         "24.5" : "6.1513rem", //98.4208px
+        '0.75': '0.188rem', //3px
       },
       width:{
         "11.5/12" : "91%",      // width on desktop
@@ -44,7 +45,7 @@ module.exports = {
         "fit": "fit-content",
       },
       borderRadius: {
-        "4.75":"1.1875rem",
+        "4.75":"1.1875rem", //19px
       }
     },
   },
