@@ -32,7 +32,7 @@ module.exports = {
         'Neufile': ['Neufile', 'sans-serif'],        
       },
       spacing:{
-        "24.5" : "6.1513rem",
+        "24.5" : "6.1513rem", //98.4208px
       },
       width:{
         "11.5/12" : "91%",      // width on desktop
