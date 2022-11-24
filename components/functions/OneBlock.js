@@ -16,7 +16,7 @@ export function OneBlock({
 
           
           <h2 className={`${
-            isOpened ? 'text-primary-purple' : 'text-black'
+            isOpened ? 'text-primary-purple' : 'text-black'                
           } w-full cursor-pointer  `}
         >{title}</h2>
           <div
@@ -30,7 +30,7 @@ export function OneBlock({
   
         <p
           className={`${
-            isOpened ? 'h-auto opacity-100' : 'h-0 opacity-0'
+            isOpened ? 'h-[60rem] opacity-100' : 'h-0 opacity-0'
           } transition-all duration-300 ease-in`}
         >
           {text}

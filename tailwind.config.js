@@ -36,9 +36,13 @@ module.exports = {
         "24.5" : "6.1513rem", //98.4208px
       },
       width:{
+        "fit":"fit-content",
         "11.5/12" : "91%",      // width on desktop
         "11.8/12" : "93%",      //width on tablet
-        "10.5/12" : "90%"      //width on mobile
+        "10.5/12" : "90%",      //width on mobile
+      },
+      height: {
+        "3.34" : "0.835rem"         //13.36px
       }
     },
   },

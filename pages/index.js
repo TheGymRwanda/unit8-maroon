@@ -1,11 +1,8 @@
-import Button from "../components/ui/Button";
-
+import Arrow from "../components/ui/Arrow";
 export default function Home() {
   return (
     <div className="">
-    
-     
-      <Button text="testing" styles=""/>
+
     </div>
   );
 }
