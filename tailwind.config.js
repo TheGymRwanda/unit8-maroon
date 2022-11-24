@@ -9,6 +9,7 @@ module.exports = {
       colors:{
         "primary-purple" : "#5602E0",
         "dark-grey" : "#9A9A9A",
+        "grey": "#878787",
         "light-grey" : "#E4E4E4"
       },
       letterSpacing: {
@@ -30,10 +31,11 @@ module.exports = {
         "4.5" : "1.125rem"           //18px
       },
       fontFamily: {
-        'Neufile': ['Neufile', 'sans-serif'],        
+        'Neufile': ['Neufile', 'sans-serif'],      
       },
       spacing:{
         "24.5" : "6.1513rem", //98.4208px
+        '0.75': '0.188rem', //3px
       },
       width:{
         "fit":"fit-content",
@@ -43,6 +45,13 @@ module.exports = {
       },
       height: {
         "3.34" : "0.835rem"         //13.36px
+        "10.5/12" : "90%"      //width on mobile
+      },
+      height: {
+        "fit": "fit-content",
+      },
+      borderRadius: {
+        "4.75":"1.1875rem", //19px
       }
     },
   },
