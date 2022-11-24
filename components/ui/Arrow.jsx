@@ -4,7 +4,7 @@ export default function Arrow(props) {
   return (
     <>
       <a
-        target="_blank"
+       
         className={` group flex  w-fit items-center gap-1.5 border ${props.style}`}
         href={props.link}
       >
