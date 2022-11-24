@@ -13,10 +13,16 @@ export default function Arrow(props) {
         </p>
         <div className={`relative h-3.34 w-3.5 ${props.imageWrapperStyle}`}>
           <Image
-            className={`transition-none duration-300 ease-in-out  group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
+            className={`duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
             src={linkArrow}
             fill="layout"
           />
+
+{/* <Image
+            className={` after:transition after:duration-2000 after:ease-in-out  after:text-blue-400 group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
+            src={linkArrow}
+            fill="layout"
+          /> */}
         </div>
       </a>
     </>
