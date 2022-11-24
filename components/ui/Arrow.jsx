@@ -1,5 +1,4 @@
-import linkArrow from "../../public/assets/icons/link-arrow.svg";
-import Image from "next/image";
+
 export default function Arrow(props) {
   return (
     <>
