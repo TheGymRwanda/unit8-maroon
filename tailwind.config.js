@@ -7,14 +7,14 @@ module.exports = {
   theme: {
     screens: {
       'ipad': '390px',
-      // => @media (min-width: 640px) { ... }
+      // => @media (min-width: 390px) { ... }
 
       'tablet': '834px',
-      // => @media (min-width: 1024px) { ... }
+      // => @media (min-width: 834px) { ... }
 
       'desktop': '1024px',
-      // => @media (min-width: 1280px) { ... }
-      // 'desktop': '1440px',
+      // => @media (min-width: 1440px) { ... }
+   
     },
     extend: {
       colors: {
