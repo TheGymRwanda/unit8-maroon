@@ -5,7 +5,7 @@ export default function Arrow(props) {
     <>
       <a
         target="_blank"
-        className={`link group flex  w-fit items-center gap-1.5 border ${props.style}`}
+        className={` group flex  w-fit items-center gap-1.5 border ${props.style}`}
         href={props.link}
       >
         <p className={`font-Neufile text-2xl ${props.textStyle}`}>
