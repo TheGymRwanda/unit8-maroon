@@ -1,9 +1,9 @@
+import BlogCard from "../components/cards/BlogCard";
+
 export default function Home() {
   return (
-    <div className="flex h-screen">
-      <h1 className="m-auto font-Neufile text-6xl font-bold  text-red-900  underline ">
-        Hello Maroon!
-      </h1>
+    <div className="">
+     <BlogCard />
     </div>
   );
 }
