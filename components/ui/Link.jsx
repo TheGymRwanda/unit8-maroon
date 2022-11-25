@@ -3,7 +3,7 @@ export default function Link(props) {
     return (
       <>
         <a
-          className={` group flex  w-fit items-center gap-1.5 ${props.style}`}
+          className={` group flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
         >
           <p className={`font-Neufile text-2xl ${props.textStyle}`}>
