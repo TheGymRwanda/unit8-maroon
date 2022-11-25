@@ -39,13 +39,17 @@ module.exports = {
       width:{
         "11.5/12" : "91%",      // width on desktop
         "11.8/12" : "93%",      //width on tablet
-        "10.5/12" : "90%"      //width on mobile
+        "10.5/12" : "90%",      //width on mobile
+        "semi" : "50.6875rem"
       },
       height: {
         "fit": "fit-content",
       },
       borderRadius: {
         "4.75":"1.1875rem", //19px
+      },
+      gap: {
+        '10.5': '2.5625rem',
       }
     },
   },
