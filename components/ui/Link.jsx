@@ -4,7 +4,7 @@ export default function Link(props) {
       <>
         <a
          
-          className={` group flex  w-fit items-center gap-1.5 border ${props.style}`}
+          className={` group flex  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
         >
           <p className={`font-Neufile text-2xl ${props.textStyle}`}>
