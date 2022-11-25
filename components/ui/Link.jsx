@@ -3,7 +3,6 @@ export default function Link(props) {
     return (
       <>
         <a
-         
           className={` group flex  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
         >
