@@ -37,7 +37,7 @@ export default function About (){
      </div>
    </div>
    {activeTab !== -1 && (
-     <div className='text-black text-2xl'>{tabTexts[activeTab].content}</div>
+     <div className='text-black font-normal text-2xl'>{tabTexts[activeTab].content}</div>
    )}
  </div>
 

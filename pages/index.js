@@ -1,4 +1,3 @@
-import Tag from "../components/ui/Tag";
 
 export default function Home() {
   return (
@@ -6,6 +5,7 @@ export default function Home() {
       <h1 className="m-auto font-Neufile text-6xl font-bold  text-red-900  underline ">
         Hello Maroon!
       </h1>
+    
     </div>
   );
 }

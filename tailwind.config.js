@@ -17,6 +17,7 @@ module.exports = {
         "spacing-lg": '-0.01rem',             //-1%
         "spacing-md": '-0.015rem',            //-1.5%
         "spacing-sm": '-0.0125rem',           //-1.25%
+        "spacing-xs": '-0.015em',             //-0.015em
       },
       fontSize:{
         "heading-one" : "4rem",               //64px
@@ -26,8 +27,8 @@ module.exports = {
 
       lineHeight:{
         "18" : "4.5rem",             //72px
-        "10.5" :"2.625rem",                  //42px
-        "4.5" : "1.125rem"             //18px
+        "10.5" :"2.625rem",          //42px
+        "4.5" : "1.125rem"           //18px
       },
       fontFamily: {
         'Neufile': ['Neufile', 'sans-serif'],      
@@ -50,6 +51,9 @@ module.exports = {
       },
       gap: {
         '10.5': '2.5625rem',
+      },
+      margin:{
+        '4.5' : "1.1875rem"
       }
     },
   },
