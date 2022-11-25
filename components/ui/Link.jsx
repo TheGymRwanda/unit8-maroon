@@ -22,7 +22,7 @@ export default function Link(props) {
               <path
                 d="M2.86304 1.63623H13.9994V12.7726"
                 stroke="black"
-                stroke-width="1.5"
+                strokeWidth="1.5"
               />
               <line
                 x1="13.8934"
@@ -30,7 +30,7 @@ export default function Link(props) {
                 x2="0.529731"
                 y2="14.894"
                 stroke="black"
-                stroke-width="1.5"
+                strokeWidth="1.5"
               />
             </svg>
           </div>
