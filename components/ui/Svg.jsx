@@ -1,7 +1,7 @@
 export default function Svg(props){
     return(
         <svg
-        className={`duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
+        className={`md:h-3.34 md:w-3.5 h-2.59 w-2.715 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
         width="15"
         height="16"
         viewBox="0 0 15 16"
