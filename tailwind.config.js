@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'ipad': '390px',
+        // => @media (min-width: 390px) { ... }
+  
+        'tablet': '834px',
+        // => @media (min-width: 834px) { ... }
+  
+        'desktop': '1024px',
+        // => @media (min-width: 1440px) { ... }
+     
+      },
       colors:{
         "primary-purple" : "#5602E0",
         "dark-grey" : "#9A9A9A",
@@ -36,8 +47,22 @@ module.exports = {
         "24.5" : "6.1513rem", //98.4208px
         '0.75': '0.188rem', //3px
       },
+      height: {
+        '2.59': '0.647rem', //10.36px
+      },
       width:{
         '2.715': '0.679rem', //10.86px
+        '7/12': '61,44%',
+        "11.5/12" : "91%",   // width on desktop
+        "11.8/12" : "93%",   //width on tablet
+        "10.5/12" : "90%"    //width on mobile
+      },
+      maxWidth: {
+        '359.5': '89.875rem', //1440 px
+      },
+      margin: {
+        '4.485': '1.121rem', //17.94px
+        '6.75': '1.688rem', //27px
         "fit":"fit-content",
         "11.5/12" : "91%",      // width on desktop
         "11.8/12" : "93%",      //width on tablet
