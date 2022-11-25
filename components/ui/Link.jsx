@@ -1,4 +1,3 @@
-
 export default function Link(props) {
     return (
       <>
@@ -6,34 +5,14 @@ export default function Link(props) {
           className={` group flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
         >
-          <p className={`font-Neufile text-2xl ${props.textStyle}`}>
+          <p className={`font-Neufile text-2xl font-normal not-italic leading-7  text-dark-grey ${props.textStyle}`}>
             {props.text}
           </p>
           <div className={`relative h-3.34 w-3.5 ${props.imageWrapperStyle}`}>
-            <svg
-              className={`duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
-              width="15"
-              height="16"
-              viewBox="0 0 15 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.86304 1.63623H13.9994V12.7726"
-                stroke="black"
-                strokeWidth="1.5"
-              />
-              <line
-                x1="13.8934"
-                y1="1.53033"
-                x2="0.529731"
-                y2="14.894"
-                stroke="black"
-                strokeWidth="1.5"
-              />
-            </svg>
+            {props.arrow}
           </div>
         </a>
+      
       </>
     );
   }
