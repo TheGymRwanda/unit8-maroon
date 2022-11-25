@@ -37,12 +37,14 @@ module.exports = {
         '0.75': '0.188rem', //3px
       },
       width:{
+        "fit":"fit-content",
         "11.5/12" : "91%",      // width on desktop
         "11.8/12" : "93%",      //width on tablet
         "10.5/12" : "90%"      //width on mobile
       },
       height: {
         "fit": "fit-content",
+        '3.34': '0.835rem', // 13.36px
       },
       borderRadius: {
         "4.75":"1.1875rem", //19px
