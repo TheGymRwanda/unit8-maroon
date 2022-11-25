@@ -5,9 +5,9 @@ export default function Home() {
     <body>
       <Link
         text={"Contact"}
-        textStyle="text-black"
+        textStyle=""
         arrow={<Svg />}
-        imageWrapperStyle="absolute -top-2"
+        imageWrapperStyle="absolute -top-0.5"
       />
     </body>
   );
