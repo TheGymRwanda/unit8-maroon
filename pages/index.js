@@ -1,11 +1,10 @@
-import Tag from "../components/ui/Tag";
+import Expertise from "../components/section/Expertise";
 
 export default function Home() {
   return (
     <div className="">
-      <h1 className="m-auto font-Neufile text-6xl font-bold  text-red-900  underline ">
-        Hello Maroon!
-      </h1>
+   <Expertise />
+   
     </div>
   );
 }
