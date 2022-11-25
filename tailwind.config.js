@@ -23,7 +23,9 @@ module.exports = {
         "secondaryGrey": "#EDEDED",
         "darkGrey": "#9A9A9A",
         "lightGrey": "#E4E4E4",
-
+        "primary-purple" : "#5602E0",
+        "dark-grey" : "#9A9A9A",
+        "light-grey" : "#E4E4E4"
       },
       letterSpacing: {
         "spacing-xl": '-0.02rem',             //-2%
@@ -48,15 +50,23 @@ module.exports = {
         "2.6": "2.625rem",
         "2.625": "2.625rem"
       },
+      borderRadius: {
+        "4.75":"1.1875rem", //19px
+      },
       fontFamily: {
         'Neufile': ['Neufile', 'sans-serif'],
       },
       spacing: {
         "24.5": "6.1513rem", //98.4208px
-        "38": "2.375rem"
+        "38": "2.375rem",
+        "1.5":"1.5rem"
       },
       padding: {
         '35': '2.1875rem',
+        '0.1875': '0.1875rem',
+        '0.625':'0.625rem',
+        '2.1':'2rem',
+        '1.1':'1rem'
       },
       width: {
         '11.5/12': '91%',   // width on desktop
@@ -70,7 +80,7 @@ module.exports = {
         '101.25': '25.313rem',
         '29.8125': '29.8125rem',
         '27.3125': '27.3125rem',
-        
+        '27.0625':'27.0625rem'
       },
 
       height: {
@@ -81,7 +91,8 @@ module.exports = {
         '4.5': '1.125rem',
         '21': '5.25rem',
         '25.0869': '25.0869rem',
-        '8': '8rem'
+        '8': '8rem',
+        "fit": "fit-content",
       },
 
       inset: {
@@ -92,6 +103,10 @@ module.exports = {
         "cardDescription": "-0.01em",
         "cardSubDescription": "-0.015em",
         "cardSubTitle": "-0.0125em"
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)"
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',

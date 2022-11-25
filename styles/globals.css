@@ -9,6 +9,10 @@
 }
 
 
+.cardScroll::-webkit-scrollbar {
+  display: none;
+} 
+
 /* commenting below font families because they are not yet defined on the design but yet provided in assets*/
 
 
