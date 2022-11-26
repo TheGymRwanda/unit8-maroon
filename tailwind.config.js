@@ -6,15 +6,16 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'ipad': '390px',
+      // 'ipad': '390px',
       // => @media (min-width: 390px) { ... }
-
-      'tablet': '834px',
+      'ipad':'768px',
       // => @media (min-width: 834px) { ... }
 
-      'desktop': '1024px',
+      'tablet':'834px',
       // => @media (min-width: 1440px) { ... }
-   
+
+      'desktop':'1440px',
+      // => @media (min-width: 1440px) { ... }
     },
     extend: {
       colors: {
@@ -31,7 +32,8 @@ module.exports = {
         "spacing-xl": '-0.02rem',             //-2%
         "spacing-lg": '-0.01rem',             //-1%
         "spacing-md": '-0.015rem',            //-1.5%
-        "spacing-sm": '-0.0125rem',           //-1.25%
+        "spacing-sm": '-0.0125rem', 
+        "0.0125": '-0.0125em'          //-1.25%
       },
       fontSize: {
         "headingOne": "4rem",               //64px
@@ -59,14 +61,19 @@ module.exports = {
       spacing: {
         "24.5": "6.1513rem", //98.4208px
         "38": "2.375rem",
-        "1.5":"1.5rem"
+        "1.5":"1.5rem",
+        "0.3125":"0.3125rem"
       },
       padding: {
         '35': '2.1875rem',
         '0.1875': '0.1875rem',
         '0.625':'0.625rem',
         '2.1':'2rem',
-        '1.1':'1rem'
+        '1.1':'1rem',
+        '1.2813':'1.2813rem',
+        '2.25':'2.25rem',
+        '2.4375':'2.4375rem',
+        '3.85':'3.85rem'
       },
       width: {
         '11.5/12': '91%',   // width on desktop
@@ -80,7 +87,11 @@ module.exports = {
         '101.25': '25.313rem',
         '29.8125': '29.8125rem',
         '27.3125': '27.3125rem',
-        '27.0625':'27.0625rem'
+        '27.0625':'27.0625rem',
+        '83':'83rem',
+        '11.625':'11.625rem',
+        '13.875':'13.875rem',
+        '6.625': '6.625rem'
       },
 
       height: {
