@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'ipad': '391px',
+        // => @media (min-width: 390px) { ... }
+  
+        'tablet': '834px',
+        // => @media (min-width: 834px) { ... }
+  
+        'desktop': '1024px',
+        // => @media (min-width: 1440px) { ... }
+  
+      },
       colors: {
         "primary-purple": "#5602E0",
         "dark-grey": "#9A9A9A",
@@ -24,6 +35,7 @@ module.exports = {
         "heading-one": "4rem", //64px
         "mob-heading-one": "3.5rem", //56px
         "mob-heading-three": "1.75rem", //28px
+        "1.5":"1.5rem"
       },
 
       lineHeight: {
@@ -51,6 +63,11 @@ module.exports = {
         8.6875: "8.6875rem",
         4.75: "4.75rem",
         8.6875: "8.6875rem",
+
+        "18.1306":"18.1306rem",
+        "19.375":"19.375rem"
+
+ 
       },
       height: {
         fit: "fit-content",
