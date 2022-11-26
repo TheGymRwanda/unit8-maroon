@@ -24,10 +24,10 @@ export default function Expertise() {
 
         <div className="ipad:grid ipad:grid-cols-2 ipad:space-x-6">
           <div>
-            {firstList.map((list, i) => {
+            {firstList.map((list) => {
               return (
                 <div>
-                  <p key={i} className=" font-Neufile text-xl font-normal tracking-spacing-sm text-black ipad:text-2xl">
+                  <p  className=" font-Neufile text-xl font-normal tracking-spacing-sm text-black ipad:text-2xl">
                     {list}
                   </p>
                   <hr className="solid w-16.0625 border-borderGrey ipad:w-18.1306  desktop:w-19.375" />
@@ -37,10 +37,10 @@ export default function Expertise() {
           </div>
 
           <div>
-            {secondList.map((list, i) => {
+            {secondList.map((list) => {
               return (
                 <div>
-                  <p key={i} className=" font-Neufile text-xl font-normal tracking-spacing-sm text-black ipad:text-2xl">
+                  <p  className=" font-Neufile text-xl font-normal tracking-spacing-sm text-black ipad:text-2xl">
                     {list}
                   </p>
                   <hr className="solid w-16.0625 border-borderGrey ipad:w-18.1306  desktop:w-19.375" />
