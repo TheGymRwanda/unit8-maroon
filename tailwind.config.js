@@ -13,7 +13,8 @@ module.exports = {
 
       'tablet':'834px',
       // => @media (min-width: 1440px) { ... }
-
+      'desktop-sm':'1024px',
+      // => @media (min-width: 1440px) { ... }
       'desktop':'1440px',
       // => @media (min-width: 1440px) { ... }
     },
