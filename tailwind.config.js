@@ -60,7 +60,8 @@ module.exports = {
           "24.5": "6.1513rem", //98.4208px
           "38": "2.375rem",
           "1.5":"1.5rem",
-          "0.3125":"0.3125rem"
+          "0.3125":"0.3125rem",
+          "0.5" : "0.2694rem"    //4.31px
         },
         padding: {
           '35': '2.1875rem',
@@ -136,6 +137,9 @@ module.exports = {
       },
       maxWidth:{
         "90":"90rem"
+      },
+      textUnderlineOffset: {
+        1: '0.5px',
       }
     },
   },

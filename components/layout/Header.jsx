@@ -30,7 +30,8 @@ export default function Header() {
               <Link
                 text={"Contact"}
                 arrow={<Svg />}
-                style="tablet:hidden desktop:flex xl:gap-1/2 "
+                textStyle=" underline"
+                style="tablet:hidden desktop:flex xl:gap-1/2 gap-0.5  "
               />
             </span>
           </p>
