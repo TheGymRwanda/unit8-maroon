@@ -21,7 +21,7 @@ export default function Project() {
                 arrow={<Svg />}
                 imageWrapperStyle="absolute hidden desktop:group-hover:block -top-3.5"
               />
-              <div className={`hidden group-hover:flex flex-col justify-center desktop:group-hover:hidden desktop:hidden mb-21.657 mt-5.157`}>
+              <div className={`hidden group-hover:flex flex-col justify-center desktop:group-hover:hidden ml-2 desktop:hidden mb-21.657 mt-5.157`}>
                 <img src="/assets/images/project-sample.png" alt="mobile  image" />
                 <p className="text-xl font-Neufile mt-1.5">P2P learning platform </p>
               </div>
