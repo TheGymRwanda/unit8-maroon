@@ -52,7 +52,8 @@ module.exports = {
       },
       width:{
         '2.715': '0.679rem', //10.86px
-        '7/12': '61,44%',
+        '7/10': '74%',
+        '7/13': '61.44%',
         "11.5/12" : "91%",   // width on desktop
         "11.8/12" : "93%",   //width on tablet
         "10.5/12" : "90%"    //width on mobile
