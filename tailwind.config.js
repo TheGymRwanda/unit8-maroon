@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       screens: {
         'mobile':'360px',
-        'ipad-pro':'774px',
+        'ipad-pro':'768px',
 
         'ipad': '390px',
         // => @media (min-width: 390px) { ... }
@@ -21,6 +21,10 @@ module.exports = {
      
       },
       margin: {
+        '2.75': '0.688rem',     //11px
+        '5.157': '1.289rem',    //20.63px
+        '21.657': '5.414rem',   //86.63px
+        '34': '8.5rem',
         '26': '6.5rem',
       },
       colors:{
@@ -55,6 +59,9 @@ module.exports = {
         '0.75': '0.188rem', //3px
       },
       width:{
+        '59.25': '14.813rem',     //237px
+        '87.5': '21.875rem',      //350px
+        '47.75': '11.938rem',     //191px
         '111': '27.75rem',        //444px 
         '202.75': '50.688rem',    //811px
         '2.715': '0.679rem',      //10.86px
