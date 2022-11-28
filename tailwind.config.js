@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'ipad':'768px',
+        // => @media (min-width: 834px) { ... }
+  
+        'tablet':'834px',
+        // => @media (min-width: 1440px) { ... }
+        'desktop-sm':'1024px',
+        // => @media (min-width: 1440px) { ... }
+        'desktop':'1440px',
+        // => @media (min-width: 1440px) { ... }
+      },
       colors:{
         "primary-purple" : "#5602E0",
         "dark-grey" : "#9A9A9A",
@@ -50,6 +61,9 @@ module.exports = {
       },
       borderRadius: {
         "4.75":"1.1875rem", //19px
+      },
+      padding:{
+        "6.0069":"6.0069rem"
       }
     },
   },
