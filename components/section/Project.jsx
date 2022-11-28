@@ -13,7 +13,7 @@ export default function Project() {
               <Link
                 style={"desktop:gap-0.75 gap-0.5 desktop:pt-auto pt-5 border-b-2 border-white hover:border-b-2 hover:border-black -pl-2 ml-2 pb-3"}
                 text={item}
-                textStyle={"desktop:text-[4rem] text-[3.313rem] -ml-1"}
+                textStyle={"desktop:text-[4rem] sm:text-[3.313rem] -ml-1"}
                 arrow={<Svg />}
                 imageWrapperStyle="absolute hidden desktop:group-hover:block -top-3.5"
               />
