@@ -70,12 +70,15 @@ module.exports = {
       },
       margin:{
         '4.5' : "1.1875rem"
+
       },
-      spacing: {
-        "24.5": "6.1513rem", //98.4208px
-        "38": "2.375rem",
-        "1.5":"1.5rem",
-        "0.3125":"0.3125rem"
+      fontFamily: {
+        'Neufile': ['Neufile', 'sans-serif'],      
+      },
+      spacing:{
+        "24.5" : "6.1513rem", //98.4208px
+        '0.75': '0.188rem', //3px
+        "1/2" : "0.2694rem",   //4.31px
       },
       padding: {
         '35': '2.1875rem',
@@ -88,26 +91,64 @@ module.exports = {
         '2.4375':'2.4375rem',
         '3.85':'3.85rem'    //61.6px
       },
-      width: {
-        '11.6/12': '91.11%',  // width on desktop --> xl
-        '11.8/12': '93%',     // width on tablet  --> lg
-        '11.5/12': '91.37%',   //width on ipad    --> md
-        '10.5/12': '90%',     //width on mobile
-        '112': '28rem',         // width 448px
-        '75.5': '18.875rem',
-        '65.5': '16.375rem',
-        '102': '25.5rem',
-        '109.25': '27.313rem',
-        '101.25': '25.313rem',
-        '29.8125': '29.8125rem',
-        '27.3125': '27.3125rem',
-        '27.0625':'27.0625rem',
-        '83':'83rem',
-        '11.625':'11.625rem',
-        '13.875':'13.875rem',
-        '6.625': '6.625rem'
+      margin: {
+        '4.485': '1.121rem', //17.94px
+        '6.75': '1.688rem', //27px
+        "fit":"fit-content",
+        "11.5/12" : "91%",      // width on desktop
+        "11.8/12" : "93%",      //width on tablet
+        "10.5/12" : "90%"      //width on mobile
+      },
+      
+        borderRadius: {
+          "4.75":"1.1875rem", //19px
+        },
+        fontFamily: {
+          'Neufile': ['Neufile', 'sans-serif'],
+        },
+        spacing: {
+          "24.5": "6.1513rem", //98.4208px
+          "38": "2.375rem",
+          "1.5":"1.5rem",
+          "0.3125":"0.3125rem",
+          "0.5" : "0.2694rem"    //4.31px
+        },
+        padding: {
+          '35': '2.1875rem',
+          '0.1875': '0.1875rem',
+          '0.625':'0.625rem',
+          '2.1':'2rem',
+          '1.1':'1rem',
+          '1.2813':'1.2813rem',
+          '2.25':'2.25rem',
+          '2.4375':'2.4375rem',
+          '3.85':'3.85rem'
+        },
+        width:{
+          '2.715': '0.679rem', //10.86px
+          '7/10': '74%',
+          '7/13': '10%',
+          '11.6/12': '91.11%',  // width on desktop --> xl
+          '11.8/12': '93%',     // width on tablet  --> lg
+          '11.5/12': '91.37%',   //width on ipad    --> md
+          '10.5/12': '90%',     //width on mobile
+          '112': '28rem',         // width 448px
+          '75.5': '18.875rem',
+          '65.5': '16.375rem',
+          '102': '25.5rem',
+          '109.25': '27.313rem',
+          '101.25': '25.313rem',
+          '29.8125': '29.8125rem',
+          '27.3125': '27.3125rem',
+          '27.0625':'27.0625rem',
+          '83':'83rem',
+          '11.625':'11.625rem',
+          '13.875':'13.875rem',
+          '6.625': '6.625rem'
       },
       height: {
+        '2.59': '0.647rem', //10.36px
+        '3.34': '0.835rem', // 13.36px
         '96.5': '24.125rem',
         '102.5': '25.625rem',
         '17': '4.25rem',
@@ -125,7 +166,12 @@ module.exports = {
         "cardTitle": '-0.02em',
         "cardDescription": "-0.01em",
         "cardSubDescription": "-0.015em",
-        "cardSubTitle": "-0.0125em"
+        "cardSubTitle": "-0.0125em",
+        "spacing-xl": '-0.02rem',             //-2%
+        "spacing-lg": '-0.01rem',             //-1%
+        "spacing-md": '-0.015rem',            //-1.5%
+        "spacing-sm": '-0.0125rem', 
+        "0.0125": '-0.0125em'          //-1.25%
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
@@ -141,6 +187,9 @@ module.exports = {
       },
       maxWidth:{
         "90":"90rem"
+      },
+      textUnderlineOffset: {
+        1: '0.5px',
       }
     },
   },
