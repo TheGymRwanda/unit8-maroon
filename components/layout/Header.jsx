@@ -27,12 +27,12 @@ export default function Header() {
             locations on 5 continents delivers pioneering work on a global scale
             with a boutique culture.{" "}
             <span className="hidden md:inline-block">
-              <Link
+              {/* <Link
                 text={"Contact"}
                 arrow={<Svg />}
                 textStyle=" underline"
                 style="tablet:hidden desktop:flex xl:gap-1/2 gap-0.5  "
-              />
+              /> */}
             </span>
           </p>
           <p className="md:hidden">
@@ -59,9 +59,9 @@ export default function Header() {
             and more. Its team of 2,500+ digital specialists across 30+
             locations on 5 continents delivers pioneering work on a global scale
             with a boutique culture.
-            <span className="inline-block md:hidden">
+            {/* <span className="inline-block md:hidden">
               <Link text={"Contact"} arrow={<Svg />} />
-            </span>
+            </span> */}
           </p>
         </div>
       </section>
