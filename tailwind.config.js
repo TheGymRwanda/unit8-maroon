@@ -6,6 +6,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'ipad':'768px',
+        // => @media (min-width: 834px) { ... }
+  
+        'tablet':'834px',
+        // => @media (min-width: 1440px) { ... }
+        'desktop-sm':'1024px',
+        // => @media (min-width: 1440px) { ... }
+        'desktop':'1440px',
+        // => @media (min-width: 1440px) { ... }
+      },
       colors:{
         "primary-purple" : "#5602E0",
         "dark-grey" : "#9A9A9A",
@@ -41,15 +52,22 @@ module.exports = {
         "fit":"fit-content",
         "11.5/12" : "91%",      // width on desktop
         "11.8/12" : "93%",      //width on tablet
-        "10.5/12" : "90%"      //width on mobile
+        "10.5/12" : "90%" ,     //width on mobile
+        "29.125":"29.125rem"
       },
       height: {
         '2.59': '0.647rem', //10.36px
         "fit": "fit-content",
         '3.34': '0.835rem', // 13.36px
+        "21.8125":"21.8125rem"
       },
       borderRadius: {
         "4.75":"1.1875rem", //19px
+      },
+      padding:{
+        "6.0069":"6.0069rem",
+        "18.8706":"18.8706rem",
+        "12.8644":"12.8644rem"
       }
     },
   },
