@@ -1,13 +1,30 @@
 import Link from "../ui/Link"
 import Svg from "../ui/Svg"
 export default function Project() {
+  const projects = ["Dacade", "Bitlipa", "Symplifi", "UTU.IO", "NeueUX", "Lab3", "Even"];
+  
   return (
-    <Link
-        // style={"text-[6]"}
-        text={"Contact"}
-        textStyle=""
-        arrow={<Svg />}
-        imageWrapperStyle="absolute hidden group-hover:block -top-0.5"
-      />
+    <section className="flex justify-center  mt-26">
+      <div className="w-11.5/12 flex justify-between">
+        <ul className="w-[237px] font-Neufile">
+          <h3 className="mb-[11px] text-dark-grey">Project</h3>
+          {
+            projects.map((item, index) => <li className="mb-0.5 md:h-18 -ml-2 tracking-spacing-xl leading-18 flex flex-col justify-center" key={index}>
+              <Link
+                style={"md:gap-0.75 gap-0.5 md:pt-auto pt-5 border-b-2 border-white hover:border-b-2 hover:border-black -pl-2 ml-2 pb-3"}
+                text={item}
+                textStyle={"md:text-[4rem] text-[3.313rem] -ml-1"}
+                arrow={<Svg />}
+                imageWrapperStyle="absolute hidden md:group-hover:block -top-3.5"
+              />
+            </li>)
+          }
+        </ul>
+        <div className="md:flex flex-col justify-center hidden">
+          <img className="w-202.75 h-111" src="/assets/images/project-sample.png" alt="sample image" />
+        </div>
+        
+      </div>
+    </section>
   )
 }
