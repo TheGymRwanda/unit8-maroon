@@ -1,9 +1,17 @@
-import Header from "../components/layout/Header";
+
+import Footer from "../components/layout/Footer";
+
 import Wrapper from "../components/wrappers/Wrapper";
+
 export default function Home() {
-  return(
-  <Wrapper>
-    <Header/>
-  </Wrapper>
-  );
+
+  return (
+    <>
+     <Wrapper>
+     <Footer/>
+     </Wrapper>
+    </>
+
+  )
 }
+
