@@ -78,6 +78,9 @@ module.exports = {
       width: {
         '11.5/12': '91%',   // width on desktop
         '11.8/12': '93%',     //width on tablet
+        '11.6/12': '91.11%',  // width on desktop --> xl
+        '11.8/12': '93%',     // width on tablet  --> lg
+        '11.5/12': '91.37%',   //width on ipad    --> md
         '10.5/12': '90%',     //width on mobile
         '112': '28rem',         // width 448px
         '75.5': '18.875rem',
@@ -127,6 +130,9 @@ module.exports = {
         ],
 
         "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)"
+      },
+      maxWidth:{
+        "90":"90rem"
       }
     },
   },
