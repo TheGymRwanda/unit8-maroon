@@ -4,8 +4,6 @@ import About from '../components/section/AboutSection/About'
 export default function Home() {
   return (
 <Wrapper>
-
-  <Header />
     <About />
 </Wrapper>
   

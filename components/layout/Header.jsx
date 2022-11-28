@@ -4,10 +4,10 @@ import Link from "../ui/Link";
 export default function Header() {
   return (
     <header className="flex justify-center font-Neufile text-xl font-normal leading-7 tracking-spacing-sm md:text-2xl md:leading-8 md:tracking-spacing-md">
-      <section className="mt-6.75 w-full">
-        <div className="justify-between lg:flex  bg-red-500 ">
+      <section className="mt-6.75 ">
+        <div className="justify-between lg:flex  ">
           <h1 className="mb-4.485">Ape Unit</h1>
-          <p className="hidden md:block lg:w-7/10  xl:w-112">
+          <p className="hidden md:block lg:w-7/10  xl:w-7/13">
             Unit➇ is a pioneering technology company specialing in decentralised
             technologies that creates end-to-end digital experiences for
             protocols including{" "}
