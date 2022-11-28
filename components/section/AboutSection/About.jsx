@@ -13,7 +13,9 @@ export default function About (){
     const [activeTab, setActiveTab] = useState(0);
     return(
         <>
-        <div className='hidden md:block w-semi font-Neufile '>
+
+        <section className='flex justify-end'>
+        <div className='hidden w-semi font-Neufile  md:block '>
    <div className=''>
      <div className='flex gap-10.5'>
        <OneTab
@@ -41,7 +43,7 @@ export default function About (){
    )}
  </div>
 
-
+ </section>
  </>
 
     )

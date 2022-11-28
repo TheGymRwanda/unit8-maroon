@@ -43,6 +43,7 @@ module.exports = {
       spacing:{
         "24.5" : "6.1513rem", //98.4208px
         '0.75': '0.188rem', //3px
+        "10.5" :"2.5625rem"    //41px
       },
       width:{
         "11.5/12" : "91%",      // width on desktop
