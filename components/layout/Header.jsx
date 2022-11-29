@@ -1,12 +1,16 @@
-import Svg from "../ui/Svg";
-import PageLink from "../ui/Link";
+import Svg from "./unit8-maroon/components/ui/Svg";
+import PageLink from "./unit8-maroon/components/ui/Link";
 
 export default function Header() {
   return (
-     <div className="lg:flex space-y-1.1213 lg:items-baseline lg:justify-between mb-24.75 sm:mb-16.5 xl:mb-26">
+    <div className="lg:flex space-y-1.1213 lg:items-baseline lg:justify-between mb-24.75 sm:mb-16.5 xl:mb-26">
       <div>
-        <h1 className="lg:w-13.875 mb-5 font-Neufile font-normal text-xl lg:text-2xl text-black 
-        tracking-0.0125 mt-12 md:text-2xl">Ape Unit</h1>
+        <h1
+          className="lg:w-13.875 mb-5 font-Neufile font-normal text-xl lg:text-2xl text-black 
+        tracking-0.0125 mt-12 md:text-2xl"
+        >
+          Ape Unit
+        </h1>
       </div>
       {/* mobile*/}
       <div className="lg:hidden">
@@ -44,11 +48,11 @@ export default function Header() {
           <span className="hidden text-primary-purple md:inline-block">
             Algorand
           </span>{" "}
-          and more. Its team of 2,500+ digital specialists across 30+
-          locations on 5 continents delivers pioneering work on a global scale
-          with a boutique culture.
+          and more. Its team of 2,500+ digital specialists across 30+ locations
+          on 5 continents delivers pioneering work on a global scale with a
+          boutique culture.
           <span className="inline-block lg:hidden">
-          <PageLink
+            <PageLink
               text={"Contact Us"}
               arrow={<Svg />}
               textStyle="no-underline md:underline lg:no-underline"
@@ -57,15 +61,15 @@ export default function Header() {
           </span>
         </div>
       </div>
-       {/* Ipad */}
+      {/* Ipad */}
       {/* desktop */}
       <div className="hidden lg:block">
         <div className="xs:w-21.875 xl:w-47.3125 h-15.75 text-xl md:text-2xl">
           {/* lg:w-[47.3125rem]  xl:w-7/13 */}
           {/* justify-between lg:flex */}
           Unit➇ is a pioneering technology company specialing in decentralised
-          technologies that creates end-to-end digital experiences for
-          protocols including{" "}
+          technologies that creates end-to-end digital experiences for protocols
+          including{" "}
           <span className="hidden text-primary-purple md:inline-block">
             Ethereum,
           </span>{" "}
@@ -78,15 +82,16 @@ export default function Header() {
           <span className="hidden text-primary-purple md:inline-block">
             Algorand
           </span>{" "}
-          and more. Its team of 2,500+ digital specialists across 30+
-          locations on 5 continents delivers pioneering work on a global scale
-          with a boutique culture.{" "}
+          and more. Its team of 2,500+ digital specialists across 30+ locations
+          on 5 continents delivers pioneering work on a global scale with a
+          boutique culture.{" "}
           <span className="hidden lg:inline-block">
-          <PageLink 
-          style="gap-2" 
-          text={"Contact"}  
-          textStyle="no-underline md:underline md:hover:no-underline"
-          arrow={<Svg />} />
+            <PageLink
+              style="gap-2"
+              text={"Contact"}
+              textStyle="no-underline md:underline md:hover:no-underline"
+              arrow={<Svg />}
+            />
           </span>
         </div>
       </div>
