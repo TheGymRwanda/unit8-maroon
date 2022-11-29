@@ -1,70 +1,74 @@
 import Svg from "../ui/Svg";
-import Link from "../ui/Link";
+import PageLink from "../ui/Link";
 
 export default function Header() {
   return (
-    <header className="flex justify-center font-Neufile text-xl font-normal leading-7 tracking-spacing-sm md:text-2xl md:leading-8 md:tracking-spacing-md">
-      <section className="mt-6.75">
-        <div className="justify-between lg:flex">
-          <h1 className="mb-4.485">Ape Unit</h1>
-          <p className="hidden md:block lg:w-7/10 xl:w-7/13">
-            Unit➇ is a pioneering technology company specialing in decentralised
-            technologies that creates end-to-end digital experiences for
-            protocols including{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Ethereum,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Tezos,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Near,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Algorand
-            </span>{" "}
-            and more. Its team of 2,500+ digital specialists across 30+
-            locations on 5 continents delivers pioneering work on a global scale
-            with a boutique culture.{" "}
-            <span className="hidden md:inline-block">
-              {/* <Link
-                text={"Contact"}
-                arrow={<Svg />}
-                textStyle=" underline"
-                style="tablet:hidden desktop:flex xl:gap-1/2 gap-0.5  "
-              /> */}
-            </span>
-          </p>
-          <p className="md:hidden">
-            Unit➇ is a pioneering technology and marketing services company that
-            creates end-to-end digital experiences for brands such as{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Google,{" "}
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              philips,{" "}
-            </span>
-            <span className="inline-block text-primary-purple md:hidden">
-              Audi,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Twitch,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Patagonia,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              eBay
-            </span>{" "}
-            and more. Its team of 2,500+ digital specialists across 30+
-            locations on 5 continents delivers pioneering work on a global scale
-            with a boutique culture.
-            {/* <span className="inline-block md:hidden">
-              <Link text={"Contact"} arrow={<Svg />} />
-            </span> */}
-          </p>
+    <div className="lg:flex space-y-[17.94px] lg:items-baseline mb-96 xs:mb-44 lg:mb-32 lg:justify-between">
+      <div>
+        <h1 className="lg:w-13.875 font-Neufile font-normal text-xl lg:text-2xl text-black tracking-0.0125 mt-[3rem] md:text-2xl">Ape Unit</h1>
+      </div>
+      {/* mobile*/}
+      <div className="lg:hidden">
+        <div className="xs:w-[21.875rem] h-[15.75rem] text-xl md:text-2xl">
+          Unit➇ is a pioneering technology and marketing services company that
+          creates end-to-end digital experiences for brands such as{" "}
+          <span className="inline-block text-primary-purple lg:hidden">
+            Google,{" "}
+          </span>{" "}
+          <span className="inline-block text-primary-purple lg:hidden">
+            philips,{" "}
+          </span>
+          <span className="inline-block text-primary-purple lg:hidden">
+            Audi,
+          </span>{" "}
+          <span className="inline-block text-primary-purple lg:hidden">
+            Twitch,
+          </span>{" "}
+          <span className="inline-block text-primary-purple lg:hidden">
+            Patagonia,
+          </span>{" "}
+          <span className="inline-block text-primary-purple lg:hidden">
+            eBay
+          </span>{" "}
+          and more. Its team of 2,500+ digital specialists across 30+
+          locations on 5 continents delivers pioneering work on a global scale
+          with a boutique culture.
+          <span className="inline-block lg:hidden">
+            <PageLink style="gap-2" text={"Contact"} arrow={<Svg />} />
+          </span>
         </div>
-      </section>
-    </header>
+      </div>
+      {/* Ipads */}
+      <div className="hidden lg:block">
+        <div className="xs:w-[21.875rem] h-[15.75rem] text-xl md:text-2xl">
+          Unit➇ is a pioneering technology and marketing services company that
+          creates end-to-end digital experiences for brands such as{" "}
+          <span className="inline-block text-primary-purple ">
+            Google,{" "}
+          </span>{" "}
+          <span className="inline-block text-primary-purple ">
+            philips,{" "}
+          </span>
+          <span className="inline-block text-primary-purple ">
+            Audi,
+          </span>{" "}
+          <span className="inline-block text-primary-purple ">
+            Twitch,
+          </span>{" "}
+          <span className="inline-block text-primary-purple ">
+            Patagonia,
+          </span>{" "}
+          <span className="inline-block text-primary-purple ">
+            eBay
+          </span>{" "}
+          and more. Its team of 2,500+ digital specialists across 30+
+          locations on 5 continents delivers pioneering work on a global scale
+          with a boutique culture.
+          <span className="inline-block">
+            <PageLink text={"Contact"} arrow={<Svg />} />
+          </span>
+        </div>
+      </div>
+    </div>
   );
 }

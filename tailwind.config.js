@@ -5,18 +5,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      // 'ipad': '390px',
-      // => @media (min-width: 390px) { ... }
-      'ipad':'768px',
-      // => @media (min-width: 834px) { ... }
-
-      'tablet':'834px',
-      // => @media (min-width: 1440px) { ... }
-
-      'desktop':'1440px',
-      // => @media (min-width: 1440px) { ... }
-    },
     extend: {
       colors: {
         "primaryPurple": "#5602E0",
@@ -61,27 +49,7 @@ module.exports = {
         "11.8/12" : "93%",      //width on tablet
         "10.5/12" : "90%"      //width on mobile
       },
-      width: {
-        '11.5/12': '91%',   // width on desktop
-        '11.8/12': '93%',     //width on tablet
-        '11.6/12': '91.11%',  // width on desktop --> xl
-        '11.8/12': '93%',     // width on tablet  --> lg
-        '11.5/12': '91.37%',   //width on ipad    --> md
-        '10.5/12': '90%',     //width on mobile
-        '112': '28rem',         // width 448px
-        '75.5': '18.875rem',
-        '65.5': '16.375rem',
-        '102': '25.5rem',
-        '109.25': '27.313rem',
-        '101.25': '25.313rem',
-        '29.8125': '29.8125rem',
-        '27.3125': '27.3125rem',
-        '27.0625':'27.0625rem',
-        '83':'83rem',
-        '11.625':'11.625rem',
-        '13.875':'13.875rem',
-        '6.625': '6.625rem'
-      },
+      
         borderRadius: {
           "4.75":"1.1875rem", //19px
         },
@@ -106,7 +74,28 @@ module.exports = {
           '2.4375':'2.4375rem',
           '3.85':'3.85rem'
         },
-     
+        width:{
+          '2.715': '0.679rem', //10.86px
+          '7/10': '74%',
+          '7/13': '61.44%',
+          '11.6/12': '91.11%',  // width on desktop --> xl
+          '11.8/12': '93%',     // width on tablet  --> lg
+          '11.5/12': '91.37%',   //width on ipad    --> md
+          '10.5/12': '90%',     //width on mobile
+          '112': '28rem',         // width 448px
+          '75.5': '18.875rem',
+          '65.5': '16.375rem',
+          '102': '25.5rem',
+          '109.25': '27.313rem',
+          '101.25': '25.313rem',
+          '29.8125': '29.8125rem',
+          '27.3125': '27.3125rem',
+          '27.0625':'27.0625rem',
+          '83':'83rem',
+          '11.625':'11.625rem',
+          '13.875':'13.875rem',
+          '6.625': '6.625rem'
+      },
       height: {
         '2.59': '0.647rem', //10.36px
         '3.34': '0.835rem', // 13.36px
@@ -120,7 +109,6 @@ module.exports = {
         '8': '8rem',
         "fit": "fit-content",
       },
-
       inset: {
         '736': '184rem',
       },
@@ -146,7 +134,6 @@ module.exports = {
           '0 45px 65px rgba(0, 0, 0, 0.15)'
         ],
 
-        "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)"
       },
       maxWidth:{
         "90":"90rem"
