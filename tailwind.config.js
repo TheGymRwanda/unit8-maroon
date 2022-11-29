@@ -6,17 +6,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      screens: {
-        ipad: "768px",
-        // => @media (min-width: 834px) { ... }
-
-        tablet: "1024px",
-        // => @media (min-width: 1440px) { ... }
-
-        desktop: "1440px",
-        // => @media (min-width: 1440px) { ... }
-      },
-
       colors: {
         "primaryPurple": "#5602E0",
         "primaryGrey": "#878787",
