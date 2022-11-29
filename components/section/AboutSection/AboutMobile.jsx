@@ -5,7 +5,7 @@ export default function AboutMobile(){
     const [activeTab, setActiveTab] = useState(0);
     return(
         <>
-        <div className='flex flex-col gap-8  pt-12 md:hidden'>
+        <div className='flex flex-col gap-8 px-5  py-20 md:hidden'>
         <OneBlock
           key={0}
           title='About Us'

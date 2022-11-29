@@ -9,20 +9,24 @@
 }
 
 
+.cardScroll::-webkit-scrollbar {
+  display: none;
+} 
+
 /* commenting below font families because they are not yet defined on the design but yet provided in assets*/
 
 
+
+/* @font-face {
+  font-family: "Neufile";
+  src: url('../public/assets/font/NeufileGrotesk-Regular.otf');
+} */
+/* @font-face {
+  font-family: "Neufile";
+  src: url('../public/assets/font/NeufileGrotesk-Regular.woff');
+} */
 /* 
 @font-face {
-  font-family: ;
-  src: url('../public/assets/font/NeufileGrotesk-Regular.otf');
-}
-@font-face {
-  font-family: ;
-  src: url('../public/assets/font/NeufileGrotesk-Regular.woff');
-}
-
-@font-face {
-  font-family: ;
+  font-family: "Neufile";
   src: url('../public/assets/font/NeufileGrotesk-Regular.woff2');
 } */
