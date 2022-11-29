@@ -5,11 +5,13 @@ import Wrapper from "../components/wrappers/Wrapper";
 export default function Home() {
 
   return (
+  <>
     <Wrapper>
       <Header/>
       <Project/>
       <Footer/>
     </Wrapper>
+  </>
   );
 }
 
