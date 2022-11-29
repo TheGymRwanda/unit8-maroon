@@ -46,7 +46,7 @@ export default function Project() {
             </li>
           ))}
         </ul>
-        <div className="hidden flex-col justify-center xl:flex">
+        <div className="hidden flex-col justify-center xl:flex pb-10">
           <img
             className="project__image h-111 w-202.75 rounded-2xl"
             src="/assets/images/project-sample.png"
