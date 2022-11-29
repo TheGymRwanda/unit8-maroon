@@ -14,7 +14,7 @@ export default function About (){
     return(
         <>
 
-        <section className='flex justify-end'>
+        <section className='flex justify-end  py-24'>
         <div className='hidden w-semi font-Neufile  md:block '>
    <div className=''>
      <div className='flex gap-10.5'>
