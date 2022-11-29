@@ -1,6 +1,7 @@
 
 import Image from 'next/image'
 import downArrow from '../../public/assets/icons/down-arrow.png'
+import {motion} from 'framer-motion'
 export function OneBlock({
     title,
     text,
@@ -28,13 +29,11 @@ export function OneBlock({
           </div>
         </div>
   
-        <p
-          className={`${
-            isOpened ? 'h-auto opacity-100' : 'h-0 opacity-0'
-          } transition-all duration-300 ease-in`}
+        <motion.p animate={{opacity: isOpened ? 1 : 0, height: isOpened ? "auto" : 0}} transition={{ease: "easeIn", duration: 0.3}}
+          className={``}
         >
           {text}
-        </p>
+        </motion.p>
       </div>
     );
   }
