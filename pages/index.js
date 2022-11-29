@@ -9,9 +9,11 @@ export default function Home() {
     <Wrapper>
       <Header/>
       <Project/>
+      <Expertise/>
       <Footer/>
     </Wrapper>
   </>
+
   );
 }
 
