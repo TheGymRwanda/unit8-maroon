@@ -1,3 +1,4 @@
+import 
 import Project from "../components/section/Project";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
