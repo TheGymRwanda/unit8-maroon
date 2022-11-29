@@ -1,11 +1,10 @@
-
+import Wrapper from "../components/wrappers/Wrapper";
+import AboutMobile from '../components/section/AboutSection/AboutMobile'
 export default function Home() {
   return (
-    <div className="">
-      <h1 className="m-auto font-Neufile text-6xl font-bold  text-red-900  underline ">
-        Hello Maroon!
-      </h1>
-    
-    </div>
+<Wrapper>
+<AboutMobile />
+</Wrapper>
+  
   );
 }
