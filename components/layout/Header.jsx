@@ -1,15 +1,17 @@
 import Svg from "../ui/Svg";
 import PageLink from "../ui/Link";
+import Wrapper from "../wrappers/Wrapper";
 
 export default function Header() {
   return (
-    <div className="lg:flex space-y-[17.94px] lg:items-baseline mb-96 xs:mb-44 lg:mb-32 lg:justify-between">
+   <Wrapper>
+     <div className="lg:flex space-y-1.1213 lg:items-baseline lg:justify-between">
       <div>
-        <h1 className="lg:w-13.875 font-Neufile font-normal text-xl lg:text-2xl text-black tracking-0.0125 mt-[3rem] md:text-2xl">Ape Unit</h1>
+        <h1 className="lg:w-13.875 mb-5 font-Neufile font-normal text-xl lg:text-2xl text-black tracking-0.0125 mt-12 md:text-2xl">Ape Unit</h1>
       </div>
       {/* mobile*/}
       <div className="lg:hidden">
-        <div className="xs:w-[21.875rem] h-[15.75rem] text-xl md:text-2xl">
+        <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl">
           Unit➇ is a pioneering technology and marketing services company that
           creates end-to-end digital experiences for brands such as{" "}
           <span className="inline-block text-primary-purple md:hidden">
@@ -47,14 +49,19 @@ export default function Header() {
           locations on 5 continents delivers pioneering work on a global scale
           with a boutique culture.
           <span className="inline-block lg:hidden">
-            <PageLink style="gap-2" text={"Contact"} arrow={<Svg />} />
+          <PageLink
+              text={"Contact Us"}
+              arrow={<Svg />}
+              textStyle="no-underline md:underline lg:no-underline"
+              style="text-xl md:text-2xl xl:flex xl:gap-1/2 gap-0.5 "
+            />
           </span>
         </div>
       </div>
        {/* Ipad */}
       {/* desktop */}
       <div className="hidden lg:block">
-        <div className="xs:w-[21.875rem] xl:w-[47.3125rem] h-[15.75rem] text-xl md:text-2xl">
+        <div className="xs:w-21.875 xl:w-47.3125 h-15.75 text-xl md:text-2xl">
           {/* lg:w-[47.3125rem]  xl:w-7/13 */}
           {/* justify-between lg:flex */}
           Unit➇ is a pioneering technology company specialing in decentralised
@@ -76,15 +83,15 @@ export default function Header() {
           locations on 5 continents delivers pioneering work on a global scale
           with a boutique culture.{" "}
           <span className="hidden lg:inline-block">
-            <PageLink
-              text={"Contact"}
-              arrow={<Svg />}
-              textStyle=" underline"
-              style="xl:flex xl:gap-1/2 gap-0.5  "
-            />
+          <PageLink 
+          style="gap-2" 
+          text={"Contact"}  
+          textStyle="no-underline md:underline md:hover:no-underline"
+          arrow={<Svg />} />
           </span>
         </div>
       </div>
     </div>
+   </Wrapper>
   );
 }

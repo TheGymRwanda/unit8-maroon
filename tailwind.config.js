@@ -1,67 +1,68 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
       colors: {
-        "primaryPurple": "#5602E0",
-        "primaryGrey": "#878787",
-        "secondaryGrey": "#EDEDED",
-        "darkGrey": "#9A9A9A",
-        "lightGrey": "#E4E4E4",
-        "primary-purple" : "#5602E0",
-        "dark-grey" : "#9A9A9A",
-        "light-grey" : "#E4E4E4"
+        'primaryPurple': '#5602E0',
+        'primaryGrey': '#878787',
+        'secondaryGrey': '#EDEDED',
+        'darkGrey': '#9A9A9A',
+        'lightGrey': '#E4E4E4',
+        'primary-purple' : '#5602E0',
+        'dark-grey' : '#9A9A9A',
+        'light-grey' : '#E4E4E4'
       },
       fontSize: {
-        "headingOne": "4rem",               //64px
-        "mobHeadingOne": "3.5rem",         //56px
-        "mobHeadingThree": "1.75rem",
-        "tabletHeadingOne": "2.25rem",
-        "desktopHeadingTwo": "1.125rem"
+        'headingOne': '4rem',               //64px
+        'mobHeadingOne': '3.5rem',         //56px
+        'mobHeadingThree': '1.75rem',
+        'tabletHeadingOne': '2.25rem',
+        'desktopHeadingTwo': '1.125rem'
       },
 
       lineHeight:{
-        "18": "4.5rem",             //72px
-        "10.5": "2.625rem",                  //42px
-        "4.5": "1.125rem",             //18px
+        '18': '4.5rem',             //72px
+        '10.5': '2.625rem',                  //42px
+        '4.5': '1.125rem',             //18px
         '8.5': '2.125rem',              //34px
-        "2.5": "100%",
-        "2.6": "2.625rem",
-        "2.625": "2.625rem"
+        '2.5': '100%',
+        '2.6': '2.625rem',
+        '2.625': '2.625rem'
       },
       fontFamily: {
         'Neufile': ['Neufile', 'sans-serif'],      
       },
       spacing:{
-        "24.5" : "6.1513rem", //98.4208px
+        '24.5' : '6.1513rem', //98.4208px
         '0.75': '0.188rem', //3px
-        "1/2" : "0.2694rem",   //4.31px
+        '1/2' : '0.2694rem',   //4.31px
+        '1.1213': '1.1213rem'
       },
       margin: {
         '4.485': '1.121rem', //17.94px
         '6.75': '1.688rem', //27px
-        "fit":"fit-content",
-        "11.5/12" : "91%",      // width on desktop
-        "11.8/12" : "93%",      //width on tablet
-        "10.5/12" : "90%"      //width on mobile
+        'fit':'fit-content',
+        '11.5/12' : '91%',      // width on desktop
+        '11.8/12' : '93%',      //width on tablet
+        '10.5/12' : '90%'      //width on mobile
       },
       
         borderRadius: {
-          "4.75":"1.1875rem", //19px
+          '4.75':'1.1875rem', //19px
         },
         fontFamily: {
           'Neufile': ['Neufile', 'sans-serif'],
         },
         spacing: {
-          "24.5": "6.1513rem", //98.4208px
-          "38": "2.375rem",
-          "1.5":"1.5rem",
-          "0.3125":"0.3125rem",
-          "0.5" : "0.2694rem"    //4.31px
+          '24.5': '6.1513rem', //98.4208px
+          '38': '2.375rem',
+          '1.5':'1.5rem',
+          '0.3125':'0.3125rem',
+          '0.5' : '0.2694rem'    //4.31px
         },
         padding: {
           '35': '2.1875rem',
@@ -94,7 +95,9 @@ module.exports = {
           '83':'83rem',
           '11.625':'11.625rem',
           '13.875':'13.875rem',
-          '6.625': '6.625rem'
+          '6.625': '6.625rem',
+          '21.875':'21.875rem',
+          '47.3125':'47.3125rem'
       },
       height: {
         '2.59': '0.647rem', //10.36px
@@ -107,25 +110,26 @@ module.exports = {
         '21': '5.25rem',
         '25.0869': '25.0869rem',
         '8': '8rem',
-        "fit": "fit-content",
+        'fit': 'fit-content',
+        '15.75': '15.75rem'
       },
       inset: {
         '736': '184rem',
       },
       letterSpacing: {
-        "cardTitle": '-0.02em',
-        "cardDescription": "-0.01em",
-        "cardSubDescription": "-0.015em",
-        "cardSubTitle": "-0.0125em",
-        "spacing-xl": '-0.02rem',             //-2%
-        "spacing-lg": '-0.01rem',             //-1%
-        "spacing-md": '-0.015rem',            //-1.5%
-        "spacing-sm": '-0.0125rem', 
-        "0.0125": '-0.0125em'          //-1.25%
+        'cardTitle': '-0.02em',
+        'cardDescription': '-0.01em',
+        'cardSubDescription': '-0.015em',
+        'cardSubTitle': '-0.0125em',
+        'spacing-xl': '-0.02rem',             //-2%
+        'spacing-lg': '-0.01rem',             //-1%
+        'spacing-md': '-0.015rem',            //-1.5%
+        'spacing-sm': '-0.0125rem', 
+        '0.0125': '-0.0125em'          //-1.25%
       },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
-        "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)"
+        '2.5xl': '1px 2px 5px rgba(0, 0, 0, 0.25)'
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
@@ -136,7 +140,7 @@ module.exports = {
 
       },
       maxWidth:{
-        "90":"90rem"
+        '90':'90rem'
       },
       textUnderlineOffset: {
         1: '0.5px',
