@@ -16,7 +16,7 @@ export default function Project() {
     <section className="flex justify-center">
       <div className="flex w-full justify-between">
         <ul className="font-Neufile xl:w-59.25">
-          <h3 className="mb-2.75 text-dark-grey">Project</h3>
+          <h3 className="mb-2.75 text-dark-grey md:text-2xl text-xl">Project</h3>
           {projects.map((item, index) => (
             <li
               className="md:h-18 group mb-0.5 -ml-2 flex flex-col justify-center leading-18 tracking-spacing-xl"
@@ -48,11 +48,11 @@ export default function Project() {
         </ul>
         <div className="hidden flex-col justify-center xl:flex">
           <img
-            className="h-111 w-202.75"
+            className="project__image h-111 w-202.75 rounded-2xl"
             src="/assets/images/project-sample.png"
             alt="sample image"
           />
-          <p className="mt-1.5 font-Neufile text-2xl">
+          <p className="mt-0.5 font-Neufile text-2xl">
             Peer-to-Peer learning platform
           </p>
         </div>
