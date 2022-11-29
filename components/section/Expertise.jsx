@@ -18,15 +18,13 @@ export default function Expertise() {
   ];
   return (
     <Wrapper>
-   <section className="float-right">
+      <section className="float-right">
         <div className="flex  flex-col gap-0.4375 text-left md:gap-6 xl:gap-6">
           <p className="font-Neufile  text-xl  font-normal tracking-spacing-sm text-expertiseGrey  md:text-1.5 xl:text-1.5">
             Expertise
           </p>
 
-          <div className="flex flex-col gap-2 md:gap-3 xl:gap-3   md:grid md:grid-cols-2 md:space-x-6">
-           
-
+          <div className="flex flex-col gap-2 md:grid md:grid-cols-2   md:gap-3 md:space-x-6 xl:gap-3">
             <div className="flex flex-col gap-2 md:gap-3 xl:gap-3  ">
               {firstList.map((list, i) => {
                 return (
@@ -56,8 +54,5 @@ export default function Expertise() {
         </div>
       </section>
     </Wrapper>
-   
-   
-
   );
 }
