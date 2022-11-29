@@ -1,4 +1,3 @@
-import 
 import Project from "../components/section/Project";
 import Footer from "../components/layout/Footer";
 import Header from "../components/layout/Header";
@@ -10,7 +9,6 @@ export default function Home() {
     <Wrapper>
       <Header/>
       <Project/>
-      <Expertise/>
       <Footer/>
     </Wrapper>
   </>
