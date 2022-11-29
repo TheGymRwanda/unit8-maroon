@@ -1,5 +1,5 @@
-import Svg from "./unit8-maroon/components/ui/Svg";
-import PageLink from "./unit8-maroon/components/ui/Link";
+import Svg from "../ui/Svg";
+import PageLink from "../ui/Link";
 
 export default function Header() {
   return (
