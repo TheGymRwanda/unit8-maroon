@@ -19,21 +19,21 @@ export default function Project() {
           <h3 className="mb-2.75 text-dark-grey md:text-2xl text-xl">Project</h3>
           {projects.map((item, index) => (
             <li
-              className="md:h-18 group mb-0.5 -ml-2 flex flex-col justify-center leading-18 tracking-spacing-xl"
+              className="xl:h-18 group mb-0.5 -ml-2 flex flex-col justify-center leading-18 tracking-spacing-xl"
               key={index}
             >
               <PageLink
                 onClick={() => SetMobileImage("flex")}
                 style={
-                  "md:gap-0.75 gap-0.5 md:pt-auto pt-5 border-b-2 border-white hover:border-b-2 hover:border-black -pl-2 ml-2 pb-3"
+                  "xl:gap-0.75 gap-0.5 xl:pt-auto pt-5 border-b-2 border-white hover:border-b-2 hover:border-black -pl-2 ml-2 pb-3"
                 }
                 text={item}
                 textStyle={"md:text-headingOne text-13 -ml-1"}
                 arrow={<Svg />}
-                imageWrapperStyle="absolute hidden md:group-hover:block -top-3.5"
+                imageWrapperStyle="absolute hidden xl:group-hover:block -top-3.5"
               />
               <div
-                className={`xl :hidden ml-2 mb-21.657 mt-5.157 hidden flex-col  justify-center group-hover:flex xl:group-hover:hidden`}
+                className={`xl:hidden ml-2 mb-21.657 mt-5.157 hidden flex-col  justify-center group-hover:flex xl:group-hover:hidden`}
               >
                 <img
                   src="/assets/images/project-sample.png"
