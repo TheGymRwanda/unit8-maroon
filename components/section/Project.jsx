@@ -2,7 +2,6 @@ import PageLink from "../ui/Link";
 import Svg from "../ui/Svg";
 import React, { useState } from "react";
 import ProjectCard from "../cards/ProjectCard";
-import ProjectMobileCard from "../cards/ProjectMobileCard";
 export default function Project() {
   const [show, setShow] = useState(null);
   const projects = [
@@ -47,9 +46,9 @@ export default function Project() {
                 showIndex={() => setShow(index)}
                 hide={() =>setShow(null)}
               />
-              <div className="xl:hidden">
+              <div className="xl:hidden -mt-9 mb-10">
               {show === 0 && (
-              <ProjectCard className="border" image={images[0].image} text={"P2P learning platform-1"}/>
+              <ProjectCard image={images[0].image} text={"P2P learning platform-1"}/>
               )}{show === 1 && (
                 <ProjectCard image={images[1].image} text={"P2P learning platform-1"} />
               )}{show === 2 && (
