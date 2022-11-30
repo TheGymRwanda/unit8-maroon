@@ -1,13 +1,12 @@
 import Svg from "../ui/Svg";
 import PageLink from "../ui/Link";
-import Wrapper from "../wrappers/Wrapper";
 
 export default function Header() {
   return (
-   <Wrapper>
-     <div className="lg:flex space-y-1.1213 lg:items-baseline lg:justify-between">
+     <div className="lg:flex space-y-1.1213 lg:items-baseline lg:justify-between mb-24.75 sm:mb-16.5 xl:mb-26">
       <div>
-        <h1 className="lg:w-13.875 mb-5 font-Neufile font-normal text-xl lg:text-2xl text-black tracking-0.0125 mt-12 md:text-2xl">Ape Unit</h1>
+        <h1 className="lg:w-13.875 mb-5 font-Neufile font-normal text-xl lg:text-2xl text-black 
+        tracking-0.0125 mt-12 md:text-2xl">Ape Unit</h1>
       </div>
       {/* mobile*/}
       <div className="lg:hidden">
@@ -92,6 +91,5 @@ export default function Header() {
         </div>
       </div>
     </div>
-   </Wrapper>
   );
 }

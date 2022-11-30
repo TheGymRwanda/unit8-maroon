@@ -8,6 +8,9 @@
   src: url('../public/assets/font/NeufileGrotesk-Regular.eot');
 }
 
+.project__image {
+  box-shadow: 0 0 1rem 0.00001em rgba(128, 128, 128, 0.349);
+}
 
 .cardScroll::-webkit-scrollbar {
   display: none;

@@ -1,11 +1,9 @@
 import React from 'react'
 import PageLink from '../ui/Link'
 import Svg from '../ui/Svg'
-import Wrapper from '../wrappers/Wrapper'
 
 export default function Footer() {
     return (
-       <Wrapper>
          <div className="md:flex space-y-14 md:items-baseline md:justify-between">
             <div className="w-11.625 md:mt-auto md:w-13.875 font-Neufile font-normal text-xl md:text-2xl text-black tracking-0.0125">
                 Ape Unit GmbH
@@ -19,6 +17,5 @@ export default function Footer() {
             </div>
             <p className="w-11.625  md:w-13.875 font-Neufile font-normal text-xl md:text-2xl text-black tracking-0.0125">Impressum / Privacy</p>
         </div>
-       </Wrapper>
     )
 }
