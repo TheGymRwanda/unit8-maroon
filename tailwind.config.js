@@ -4,7 +4,7 @@ module.exports = {
       './pages/**/*.{js,ts,jsx,tsx}',
       './components/**/*.{js,ts,jsx,tsx}',
     ],
-    theme: {
+    theme: { 
       extend: {
         colors: {
 
@@ -32,23 +32,22 @@ module.exports = {
           "cardSubDescription": "-0.015em",
           "cardSubTitle": "-0.0125em",
             '0.0125': '-0.0125em'  ,        //-1.25%
-
-   
-          
         },
+
+        maxWidth: {
+          "90": "90rem",
+        },
+        
         fontSize: {
           "heading-one": "4rem", //64px
           "mob-heading-one": "3.5rem", //56px
           "mob-heading-three": "1.75rem", //28px
           "1.5":"1.5rem",
-
-          
-
-            'headingOne': '4rem',               //64px
-            'mobHeadingOne': '3.5rem',         //56px
-            'mobHeadingThree': '1.75rem',
-            'tabletHeadingOne': '2.25rem',
-            'desktopHeadingTwo': '1.125rem'
+          'headingOne': '4rem',               //64px
+          'mobHeadingOne': '3.5rem',         //56px
+          'mobHeadingThree': '1.75rem',
+          'tabletHeadingOne': '2.25rem',
+          'desktopHeadingTwo': '1.125rem'
        
         },
   
@@ -169,12 +168,11 @@ module.exports = {
           "18.1306":"18.1306rem",
           "19.375":"19.375rem",
           "16.0625": "16.0625rem",
-            '2.715': '0.679rem', //10.86px
-            '7/10': '74%',
-            '7/13': '61.44%',
-       
-            '21.875':'21.875rem',
-            '47.3125':'47.3125rem'
+          '2.715': '0.679rem', //10.86px
+          '7/10': '74%',
+          '7/13': '61.44%', 
+          '21.875':'21.875rem',
+          '47.3125':'47.3125rem'
     
         },
         height: {
@@ -303,17 +301,7 @@ module.exports = {
           '2.5xl': '1px 2px 5px rgba(0, 0, 0, 0.25)'
 
         },
-        dropShadow: {
-          "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
-          "4xl": [
-            "0 35px 35px rgba(0, 0, 0, 0.25)",
-            "0 45px 65px rgba(0, 0, 0, 0.15)",
-          ],
-        },
  
-        maxWidth: {
-          "90": "90rem",
-        },
         gap:{
           "0.4375":"0.4375rem"},
 
