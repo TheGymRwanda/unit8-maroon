@@ -15,13 +15,13 @@ export default function Project() {
   ];
 
   const images = [
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
-    { image: "/assets/images/project-sample.png", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/dacade.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/bitlipa.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/symplifi.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/utu.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/neueux.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/lab3.webp", text: "Peer-to-Peer learning platform" },
+    { image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/even.webp", text: "Peer-to-Peer learning platform" },
   ];
 
   return (
