@@ -15,7 +15,7 @@ export default function About (){
     const [activeTab, setActiveTab] = useState(0);
     return(
       <Wrapper>
-                <section className='flex justify-end  py-24'>
+                <section className='hidden md:flex justify-end  py-24'>
         <div className='hidden w-semi font-Neufile  md:block '>
    <div className=''>
      <div className='flex gap-10.5'>
