@@ -18,7 +18,7 @@ export default function Expertise() {
   ];
   return (
 <Wrapper>
-<section className="float-right mt-5.3125 md:mt-5.7375 lg:mt-7.9375 xl:mt-7.9375">
+<section className="float-right mt-5.3125 md:mt-5.7375 lg:mt-6.4375 xl:mt-7.9375">
         <div className="flex  flex-col gap-0.4375 text-left md:gap-6 xl:gap-6">
           <p className="font-Neufile  text-xl  font-normal tracking-spacing-sm text-expertiseGrey  md:text-1.5 xl:text-1.5">
             Expertise
