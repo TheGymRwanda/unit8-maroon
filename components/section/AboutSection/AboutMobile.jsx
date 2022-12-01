@@ -7,13 +7,9 @@ export default function AboutMobile() {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <>
-      <div>
-        <p className="duration-500 hover:underline hover:transition-all">
-          Hello
-        </p>
-      </div>
+
       <Wrapper>
-        <div className="mt-44 mb-20 flex flex-col  gap-8 px-5 md:hidden">
+        <div className="mt-20 mb-20 flex flex-col  gap-8  md:hidden">
           <OneBlock
             key={0}
             title="About Us"
