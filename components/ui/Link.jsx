@@ -1,20 +1,19 @@
-
-  export default function PageLink(props) {
+export default function PageLink(props) {
   return (
     <>
       <a
-        className={`group flex cursor-pointer w-fit items-center ${props.style}`}
+        className={`group flex w-fit cursor-pointer items-center ${props.style}`}
         href={props.link}
       >
-        <p className={`font-Neufile md:text-2xl text-xl leading-7 ${props.textStyle}`}>
+        <p
+          className={`font-Neufile text-xl leading-7 md:text-2xl ${props.textStyle}`}
+        >
           {props.text}
         </p>
         <div className={`relative ${props.imageWrapperStyle}`}>
           {props.arrow}
         </div>
       </a>
-    
     </>
   );
 }
-
