@@ -47,7 +47,7 @@ export function OneBlock({ title, text, isOpened, expand }) {
       <motion.p
         animate={{ opacity: isOpened ? 1 : 0, height: isOpened ? "auto" : 0 }}
         transition={{ ease: "easeIn", duration: 0.3 }}
-        className={`text-xl leading-7  `}
+        className={`text-xl leading-7   `}
       >
         {text}
       </motion.p>
