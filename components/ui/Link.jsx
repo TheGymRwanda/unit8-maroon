@@ -1,5 +1,4 @@
-
-  export default function PageLink(props) {
+export default function PageLink(props) {
   return (
     <>
             {/* Section for desktop */}
