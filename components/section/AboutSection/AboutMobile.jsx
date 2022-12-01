@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import {OneBlock} from '../../functions/OneBlock'
+import Wrapper from '../../wrappers/Wrapper';
 export default function AboutMobile(){
     const [activeTab, setActiveTab] = useState(0);
     return(
         <>
+
+        <Wrapper >
         <div className='flex flex-col gap-8 px-5  mt-44 md:hidden'>
         <OneBlock
           key={0}
@@ -28,6 +31,7 @@ export default function AboutMobile(){
           expand={() => setActiveTab(activeTab === 2 ? -1 : 2)}
         />
       </div>
+      </Wrapper>
         </>
     )
 }
