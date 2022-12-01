@@ -2,6 +2,7 @@ import PageLink from "../ui/Link";
 import Svg from "../ui/Svg";
 import React, { useState } from "react";
 import ProjectCard from "../cards/ProjectCard";
+import Wrapper from "../wrappers/Wrapper";
 export default function Project() {
   const [show, setShow] = useState(null);
   const projects = [
@@ -25,7 +26,8 @@ export default function Project() {
   ];
 
   return (
-    <section className="flex flex-col xl:flex xl:flex-row justify-center sm:mt-auto mt-32">
+   <Wrapper>
+     <section className="flex flex-col xl:flex xl:flex-row justify-center sm:mt-auto mt-32">
       <div className="flex w-full justify-between">
         <ul className="font-Neufile xl:w-59.25">
           <h3 className="mb-2.75 text-dark-grey md:text-2xl text-xl">Project</h3>
@@ -89,5 +91,6 @@ export default function Project() {
         )}
       </div>
     </section>
+   </Wrapper>
   );
 }

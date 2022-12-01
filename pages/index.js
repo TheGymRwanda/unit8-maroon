@@ -6,14 +6,12 @@ import Expertise from "../components/section/Expertise";
 export default function Home() {
 
   return (
-  <>
-    <Wrapper>
-      <Header/>
-      <Project/>
+    <>
+      <Header />
+      <Project />
       <Expertise />
-      <Footer/>
-    </Wrapper>
-  </>
+      <Footer />
+    </>
   );
 }
 
