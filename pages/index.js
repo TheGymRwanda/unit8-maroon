@@ -6,16 +6,12 @@ import About from '../components/section/AboutSection/About'
 
 export default function Home() {
   return (
-<>
-    <Header/>
-    <Expertise />
-    <About />
-    <Footer/>
-</>
-  
-  );
-
-  
+    <>
+     <Header/>
+     <Expertise />
+     <Footer/>
+    </>
+  )
 
 }
 
