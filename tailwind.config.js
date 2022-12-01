@@ -47,6 +47,7 @@ module.exports = {
       margin: {
         '4.485': '1.121rem', //17.94px
         '6.75': '1.688rem', //27px
+        "5.5" : "1.1875rem",  //19px
         'fit':'fit-content',
         '11.5/12' : '91%',      // width on desktop
         '11.8/12' : '93%',      //width on tablet

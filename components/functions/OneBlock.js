@@ -14,7 +14,7 @@ export function OneBlock({
       <div className='flex flex-col '>
         <div
           onClick={() => expand()}
-          className={`flex w-full cursor-pointer justify-between border-b-1 border-black ${isOpened ? 'border-b border-primary-purple' : 'border-b border-solid-black'} `}
+          className={`  transition-all duration-300  flex w-full cursor-pointer justify-between border-b-1   border-black ${isOpened ? 'border-b border-primary-purple mb-5.5' : 'border-b border-solid-black'} `}
         >
 
           
