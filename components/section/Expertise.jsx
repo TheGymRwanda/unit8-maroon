@@ -17,8 +17,8 @@ export default function Expertise() {
     "Product Design",
   ];
   return (
-    <Wrapper>
-      <section className="float-right">
+
+      <section className="float-right mt-[127.11px]">
         <div className="flex  flex-col gap-0.4375 text-left md:gap-6 xl:gap-6">
           <p className="font-Neufile  text-xl  font-normal tracking-spacing-sm text-expertiseGrey  md:text-1.5 xl:text-1.5">
             Expertise
@@ -53,6 +53,7 @@ export default function Expertise() {
           </div>
         </div>
       </section>
-    </Wrapper>
   );
 }
+
+
