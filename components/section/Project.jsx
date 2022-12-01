@@ -33,17 +33,17 @@ export default function Project() {
           <h3 className="mb-2.75 text-dark-grey md:text-2xl text-xl">Project</h3>
           {projects.map((item, index) => (
             <li
-              className="md:h-18  group mb-0.5 -ml-2 flex flex-col justify-center leading-18 tracking-spacing-xl"
+              className="md:h-18  group mb-0.5  -ml-2 flex flex-col justify-center leading-18 tracking-spacing-xl"
               key={index}
             >
-              <div className="group w-fit pb-4">
+              <div className="group w-fit mb-7 md:mb-1">
                 <PageLink
                   onClick={() => SetMobileImage("flex")}
                   style={
                     "md:gap-4 gap-0.5 md:pt-auto pt-5 border-b-2 border-white hover:border-b-2 hover:border-transparent -pl-2 ml-2 pb-3"
                   }
                   text={item}
-                  textStyle={"md:text-headingOne text-13 -ml-1"}
+                  textStyle={"md:text-headingOne  text-13 -ml-1"}
                   arrow={<Svg />}
                   imageWrapperStyle="project__iconWrapper absolute hidden xl:group-hover:block  -top-[1.5rem]"
                   showIndex={() => setShow(index)}
@@ -51,7 +51,7 @@ export default function Project() {
                 />
                 <div className="project__line hidden group-hover:block ml-2 -mt-1 border-b-2 group-hover:border-black"></div>
               </div>
-              <div className="xl:hidden -mt-9 mb-10">
+              <div className="xl:hidden -mt-9 ">
               {show === 0 && (
               <ProjectCard image={images[0].image} text={"P2P learning platform-1"}/>
               )}{show === 1 && (
