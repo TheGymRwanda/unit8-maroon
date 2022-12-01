@@ -4,7 +4,7 @@
     <>
             {/* Section for desktop */}
         <a
-          className={` group flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
+          className={` group hidden xl:flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
           onMouseOver={() => props.showIndex()}
           onMouseLeave={() => props.hide()}
@@ -18,7 +18,7 @@
         </a>
 
         {/* section for mobile */}
-        {/* <a
+        <a
           className={` group xl:hidden flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
           onClick={() => props.showIndex()}
@@ -30,7 +30,7 @@
           <div className={`relative ${props.imageWrapperStyle}`}>
             {props.arrow}
           </div>
-        </a> */}
+        </a>
     </>
   );
 }
