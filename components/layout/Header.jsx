@@ -1,7 +1,6 @@
 import Svg from "../ui/Svg";
 import PageLink from "../ui/Link";
 import Wrapper from "../wrappers/Wrapper";
-
 export default function Header() {
   return (
     <Wrapper>
