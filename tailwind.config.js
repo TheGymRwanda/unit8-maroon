@@ -91,7 +91,8 @@ module.exports = {
         '1.2813':'1.2813rem',
         '2.25':'2.25rem',   //30px
         '2.4375':'2.4375rem',
-        '3.85':'3.85rem'    //61.6px
+        '3.85':'3.85rem',    //61.6px
+        '5.3125':'5.3125rem'
       },
       margin: {
         '4.485': '1.121rem', //17.94px
@@ -99,14 +100,10 @@ module.exports = {
         'fit':'fit-content',
         '11.5/12' : '91%',      // width on desktop
         '11.8/12' : '93%',      //width on tablet
-        '10.5/12' : '90%'      //width on mobile
+        '10.5/12' : '90%' ,     //width on mobile
+        '5.3125':'5.3125rem'
       },
       
-      
-  
-   
-       
-  
         lineHeight: {
           "18": "4.5rem", //72px
           "10.5": "2.625rem", //42px
