@@ -20,7 +20,7 @@ export function OneBlock({
           
           <h2 className={`${
             isOpened ? 'text-primary-purple' : 'text-black'
-          } w-full cursor-pointer text-xl  `}
+          } w-full cursor-pointer text-xl `}
         >{title}</h2>
           <div
             className={`${
