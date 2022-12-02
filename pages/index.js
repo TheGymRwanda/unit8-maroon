@@ -10,15 +10,16 @@ import BlogCard from "../components/cards/BlogCard";
 export default function Home() {
   return (
     <>
-      {/* <Header />
+
+      <Header />
       <Project />
       <Expertise />
-      <About /> */}
-      {/* <AboutMobile /> */}
+      <About /> 
+      <AboutMobile />
       <Blog/>
       <Footer />
-      {/* <BlogCard/> */}
     </>
   );
+
 }
 
