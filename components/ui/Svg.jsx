@@ -1,7 +1,7 @@
-export default function Svg(props){
-  return(
-      <svg
-      className={`ipad:h-3.34 ipad:w-3.5 h-2.59 w-2.715 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 ${props.imageStyle}`}
+export default function Svg(props) {
+  return (
+    <svg
+      className={`h-2.59 w-2.715 duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-1 md:h-3.34 md:w-3.5 ${props.imageStyle}`}
       width="15"
       height="16"
       viewBox="0 0 15 16"
@@ -22,5 +22,5 @@ export default function Svg(props){
         strokeWidth="1.5"
       />
     </svg>
-  )
+  );
 }

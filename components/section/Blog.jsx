@@ -1,16 +1,18 @@
 import React from 'react'
 import BlogCard from '../cards/BlogCard'
+import Wrapper from '../wrappers/Wrapper'
 
 
 export default function Blog() {
     return (
         <>
-            <div className='space-y-2'>
-                <div className="pl-1.2813 text-[#9A9A9A] font-normal text-[1.25rem]  leading-8 tracking-[-0.01em] ipad:pr-2.4375 desktop:w-83 desktop:mx-auto tablet:px-3.85 desktop:px-0 inline-flex items-center gap-4">
+          <div className='overflow-hidden '>
+               <Wrapper>
+                 <div className="text-[#9A9A9A] font-normal text-[1.25rem]  leading-8 tracking-[-0.01em] md:pr-2.4375 md:w-83 md:mx-auto md:px-0 inline-flex items-center">
                    <div>
                    <p>Blog</p>
                    </div>
-                   <div className='hidden desktop-sm:block mt-1'>
+                   <div className='hidden lg:block mt-1'>
                    <div className='flex items-center gap-3 cursor-pointer '>
                         <svg width="18" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.32446 2.47485L1.44986 10.3495L9.32446 18.2241" stroke="#9A9A9A" stroke-width="1.5" />
@@ -24,7 +26,8 @@ export default function Blog() {
                     </div>
                    </div>
                 </div>
-                <div className='flex gap-7 overflow-scroll pt-10 pb-36  desktop-sm:pb-10 cardScroll'>
+               </Wrapper>
+                <div className=' flex gap- xl:pb-10'>
                     <div>
                         <BlogCard title="02 Oct 2022" subTitle="Launch of the Africa DeFi Alliance DAO"
                             description="An auspicious group of like-minded partners will deploy an open protocol for decentralized working capital and MSME financial solutions across Africa." />
