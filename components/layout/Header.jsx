@@ -86,6 +86,7 @@ export default function Header() {
             <span className="hidden lg:inline-block">
               <PageLink
                 style="gap-2"
+                link={"mailto:web3@apeunit.com"}
                 text={"Contact"}
                 textStyle="no-underline md:underline md:hover:no-underline"
                 arrow={<Svg />}
