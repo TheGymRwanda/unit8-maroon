@@ -5,8 +5,7 @@ export default function BlogCard(props) {
   return (
     <>
       <div className="flex gap-7 overflow-scroll pb-4 p-[1.2813rem] py-[2rem] md:pl-[2.25rem] xl:[4rem] 2xl:[5.25rem] lg:pl-[3.65rem] lg-sm:pb-10 cardScroll">
-        <div class="flex flex-col  md:w-112 lg:w-29.8125 
-  box-border px-5 w-75.5 rounded-xl border border-solid border-secondaryGrey shadow-2.5xl lg:px-35">
+        <div class="flex flex-col  md:w-112 lg:w-29.8125 box-border px-5 w-75.5 rounded-xl border border-solid border-secondaryGrey shadow-2.5xl lg:px-35">
           <div class="flex-1 bg-white flex flex-col justify-between">
             <div class="flex-1">
               <p class="w-65.5 mt-[1.25rem] font-Neufile text-desktopHeadingTwo font-normal leading-2.5 tracking-cardDescription text-primaryGrey md:w-102 lg:w-27.3125

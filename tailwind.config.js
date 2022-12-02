@@ -231,16 +231,14 @@ module.exports = {
       boxShadow: {
 
         "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
-        "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)",
+        // "2.5xl": "1px 2px 5px rgba(0, 0, 0, 0.25)",
 
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
         '2.5xl': '1px 2px 5px rgba(0, 0, 0, 0.25)'
-
       },
 
     },
 
-  
     textUnderlineOffset: {
       1: '0.5px',
 
