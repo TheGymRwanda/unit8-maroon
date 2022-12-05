@@ -32,7 +32,7 @@ module.exports = {
       fontSize: {
 
       '13': '3.25rem',                     //52px
-
+   '1.25' : '1.25rem',
         "heading-one": "4rem", //64px
         "mob-heading-one": "3.5rem", //56px
         "mob-heading-three": "1.75rem", //28px
@@ -57,7 +57,7 @@ module.exports = {
       },
 
     letterSpacing: {
-
+   "small" :"-0.01em",
       "spacing-xl": "-0.02rem", //-2%
       "spacing-lg": "-0.01rem", //-1%
       "spacing-md": "-0.015rem", //-1.5%

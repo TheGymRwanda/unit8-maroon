@@ -8,7 +8,7 @@ export default function Blog() {
         <>
           <div className='overflow-hidden '>
                <Wrapper>
-                 <div className="text-[#9A9A9A] font-normal text-[1.25rem]  leading-8 tracking-[-0.01em] md:pr-2.4375 md:w-83 md:mx-auto md:px-0 inline-flex items-center">
+                 <div className="text-expertiseGrey font-normal text-1.25  leading-8 tracking-small md:pr-2.4375 md:w-83 md:mx-auto md:px-0 inline-flex items-center">
                    <div>
                    <p>Blog</p>
                    </div>
