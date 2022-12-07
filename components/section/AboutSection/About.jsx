@@ -16,7 +16,7 @@ export default function About (){
     return(
       <Wrapper>
                 <section className='hidden md:flex justify-end  py-24'>
-        <div className='hidden w-semi font-Neufile  md:block '>
+        <div className='hidden w-semi font-Neufile  md:block  h-[30rem]'>
    <div className=''>
      <div className='flex gap-10.5'>
        <OneTab
