@@ -61,8 +61,6 @@ export default function Header() {
         
         <div className="hidden lg:block">
           <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl xl:w-47.3125">
-            {/* lg:w-[47.3125rem]  xl:w-7/13 */}
-            {/* justify-between lg:flex */}
             Unit➇ is a pioneering technology company specialing in decentralised
             technologies that creates end-to-end digital experiences for
             protocols including&nbsp;
