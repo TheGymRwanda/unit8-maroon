@@ -75,7 +75,7 @@ export default function Project() {
         </ul>
 
         {show === 0 && (
-          <ProjectCard className="border" image={images[0].image} text={images[0].text}/>
+          <ProjectCard className="border border-red-500" image={images[0].image} text={images[0].text}/>
         )}{show === 1 && (
           <ProjectCard image={images[1].image} text={"P2P learning platform-1"} />
         )}{show === 2 && (
