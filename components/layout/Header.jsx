@@ -32,7 +32,6 @@ export default function Header() {
             <span className="inline-block text-primary-purple md:hidden">
               eBay
             </span>&nbsp;
-            {/* style for Ipad */}
             <span className="hidden text-primary-purple md:inline-block">
               Ethereum,
             </span>&nbsp;
