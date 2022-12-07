@@ -10,42 +10,41 @@ export default function Header() {
             Ape Unit
           </h1>
         </div>
-        {/* mobile*/}
         <div className="lg:hidden">
           <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl">
             Unit➇ is a pioneering technology and marketing services company that
-            creates end-to-end digital experiences for brands such as{" "}
+            creates end-to-end digital experiences for brands such as&nbsp;
             <span className="inline-block text-primary-purple md:hidden">
-              Google,{" "}
-            </span>{" "}
+              Google,&nbsp;
+            </span>&nbsp;
             <span className="inline-block text-primary-purple md:hidden">
-              philips,{" "}
+              philips,&nbsp;
             </span>
             <span className="inline-block text-primary-purple md:hidden">
               Audi,
-            </span>{" "}
+            </span>&nbsp;
             <span className="inline-block text-primary-purple md:hidden">
               Twitch,
-            </span>{" "}
+            </span>&nbsp;
             <span className="inline-block text-primary-purple md:hidden">
               Patagonia,
-            </span>{" "}
+            </span>&nbsp;
             <span className="inline-block text-primary-purple md:hidden">
               eBay
-            </span>{" "}
+            </span>&nbsp;
             {/* style for Ipad */}
             <span className="hidden text-primary-purple md:inline-block">
               Ethereum,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Tezos,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Near,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Algorand
-            </span>{" "}
+            </span>&nbsp;
             and more. Its team of 2,500+ digital specialists across 30+
             locations on 5 continents delivers pioneering work on a global scale
             with a boutique culture.
@@ -59,30 +58,29 @@ export default function Header() {
             </span>
           </div>
         </div>
-        {/* Ipad */}
-        {/* desktop */}
+        
         <div className="hidden lg:block">
           <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl xl:w-47.3125">
             {/* lg:w-[47.3125rem]  xl:w-7/13 */}
             {/* justify-between lg:flex */}
             Unit➇ is a pioneering technology company specialing in decentralised
             technologies that creates end-to-end digital experiences for
-            protocols including{" "}
+            protocols including&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Ethereum,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Tezos,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Near,
-            </span>{" "}
+            </span>&nbsp;
             <span className="hidden text-primary-purple md:inline-block">
               Algorand
-            </span>{" "}
+            </span>&nbsp;
             and more. Its team of 2,500+ digital specialists across 30+
             locations on 5 continents delivers pioneering work on a global scale
-            with a boutique culture.{" "}
+            with a boutique culture.&nbsp;
             <span className="hidden lg:inline-block">
               <PageLink
                 style="gap-2"
