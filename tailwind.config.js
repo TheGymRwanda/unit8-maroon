@@ -61,10 +61,6 @@ module.exports = {
         'spacing-xs': '-0.015em', //-1.25%
       },
 
-      fontFamily: {
-        Neufile: ['Neufile', 'sans-serif'],
-      },
-
       margin: {
         1.5: '1.5rem',
         5.5: '1.1875rem',

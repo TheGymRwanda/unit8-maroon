@@ -2,15 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'Neufile';
-  src: url('/assets/font/NeufileGrotesk-Regular.woff2');
-}
-
-html {
-  @apply font-Neufile;
-}
-
 .project__image {
   box-shadow: 0 0 1rem 0.00001em rgba(128, 128, 128, 0.349);
 }
