@@ -11,7 +11,7 @@ export default function Expertise() {
             Expertise
           </h4>
 
-          <div className="mt-2 grid grid-cols-1 gap-y-2 gap-x-6 md:mt-6 md:grid-cols-2 md:gap-y-3">
+          <div className="grid grid-cols-1 gap-y-2 gap-x-6 md:mt-6 md:grid-cols-2 md:gap-y-3">
             {expertiseList.map((item, index) => {
               return (
                 <p
