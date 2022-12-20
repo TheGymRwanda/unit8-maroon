@@ -34,7 +34,7 @@ yarn install
 3 start development server
 
 ```
-npm  run dev
+npm run dev
 ``` 
 or 
 ```
