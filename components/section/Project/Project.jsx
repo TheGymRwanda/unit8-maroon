@@ -2,6 +2,7 @@ import PageLink from "../../ui/Link";
 import Svg from "../../ui/Svg";
 import React, {useState} from "react";
 import Wrapper from "../../wrappers/Wrapper";
+import ProjectMob from "./ProjectMob";
 // import MobileFunction from "./DesktopFunction";
 import ProjectCard from "../../cards/ProjectCard";
 // import DesktopFunction from "./DesktopFunction";
@@ -52,9 +53,10 @@ export default function Project() {
 
   return (
     <Wrapper>
+      <ProjectMob/>
       <section className="mt-32 flex flex-col justify-center sm:mt-auto xl:flex xl:flex-row">
         <div className="flex w-full justify-between">
-          <ul className="xl:w-59.25 flex flex-col font-Neufile md:gap-10 xl:gap-0">
+          <ul className="xl:w-59.25  xl:flex hidden flex-col font-Neufile md:gap-10 xl:gap-0">
             <h3 className="mb-2.75 text-xl text-dark-grey md:text-2xl">
               Project
             </h3>
