@@ -1,7 +1,10 @@
-import Svg from "../ui/Svg";
-import PageLink from "../ui/Link";
+import HeaderLink from "../ui/HeaderLink";
+import HeaderLinkMob from "../ui/HeaderLinkMob";
 import Wrapper from "../wrappers/Wrapper";
+
 export default function Header() {
+  const MOBILE_PARTNERS = ["Google,", "philips,", "Audi,", "Twitch,", "Patagonia,", "eBay,", "Ethereum,", "Tezos,","Near,", "Algorand"];
+  const BIG_SCREEN_PARTNERS = ["Ethereum,", "Tezos,", "Near,", "Algorand"];
   return (
     <Wrapper>
       <div className="space-y-1.1213 lg:flex lg:items-baseline lg:justify-between">
@@ -10,87 +13,47 @@ export default function Header() {
             Ape Unit
           </h1>
         </div>
-        {/* mobile*/}
         <div className="lg:hidden">
           <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl">
             Unit➇ is a pioneering technology and marketing services company that
-            creates end-to-end digital experiences for brands such as{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Google,{" "}
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              philips,{" "}
-            </span>
-            <span className="inline-block text-primary-purple md:hidden">
-              Audi,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Twitch,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              Patagonia,
-            </span>{" "}
-            <span className="inline-block text-primary-purple md:hidden">
-              eBay
-            </span>{" "}
-            {/* style for Ipad */}
-            <span className="hidden text-primary-purple md:inline-block">
-              Ethereum,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Tezos,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Near,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Algorand
-            </span>{" "}
+            creates end-to-end digital experiences for brands such as&nbsp;
+
+              {
+                MOBILE_PARTNERS.map((item, index) => 
+                  <span key={index} className="inline-block text-primary-purple md:hidden">
+                    {item}&nbsp;
+                  </span>
+                )
+              }
+              
             and more. Its team of 2,500+ digital specialists across 30+
             locations on 5 continents delivers pioneering work on a global scale
             with a boutique culture.
             <span className="inline-block lg:hidden">
-              <PageLink
-                text={"Contact Us"}
-                arrow={<Svg />}
-                textStyle="no-underline md:underline lg:no-underline"
-                style="text-xl md:text-2xl xl:flex xl:gap-1/2 gap-0.5 "
-              />
+              <HeaderLinkMob/>
             </span>
           </div>
         </div>
-        {/* Ipad */}
-        {/* desktop */}
+        
         <div className="hidden lg:block">
           <div className="xs:w-21.875 h-15.75 text-xl md:text-2xl xl:w-47.3125">
-            {/* lg:w-[47.3125rem]  xl:w-7/13 */}
-            {/* justify-between lg:flex */}
             Unit➇ is a pioneering technology company specialing in decentralised
             technologies that creates end-to-end digital experiences for
-            protocols including{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Ethereum,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Tezos,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Near,
-            </span>{" "}
-            <span className="hidden text-primary-purple md:inline-block">
-              Algorand
-            </span>{" "}
+            protocols including&nbsp;
+
+            {
+              BIG_SCREEN_PARTNERS.map((item, index) => 
+              <span key={index} className="hidden text-primary-purple md:inline-block">
+                {item}&nbsp;
+              </span>
+            )
+            }
+    
             and more. Its team of 2,500+ digital specialists across 30+
             locations on 5 continents delivers pioneering work on a global scale
-            with a boutique culture.{" "}
+            with a boutique culture.&nbsp;
             <span className="hidden lg:inline-block">
-              <PageLink
-                style="gap-2"
-                link={"mailto:web3@apeunit.com"}
-                text={"Contact"}
-                textStyle="no-underline md:underline md:hover:no-underline"
-                arrow={<Svg />}
-              />
+              <HeaderLink/>
             </span>
           </div>
         </div>
