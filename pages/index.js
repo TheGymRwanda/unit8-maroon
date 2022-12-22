@@ -1,5 +1,5 @@
 import Blog from "../components/section/Blog";
-import Footer from "../components/section/Footer";
+import Footer from "../components/layout/Footer";
 import Project from "../components/section/Project/Project";
 import Header from "../components/layout/Header";
 import Expertise from "../components/section/Expertise";
