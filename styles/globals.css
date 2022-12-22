@@ -88,8 +88,8 @@
   src: url('../public/assets/font/NeufileGrotesk-Regular.woff2');
 } */
 
+
 div::selection, p::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, Link::selection, a::selection, span::selection{
   background-color:#5602E0;
   color: white;
 }
-
