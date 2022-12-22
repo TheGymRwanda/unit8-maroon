@@ -5,7 +5,7 @@ export default function ProjectCard(props){
                 className={`ml-2 mb-21.657 xl:w-47.3125 mt-10 flex-col justify-center xl:block group-hover:flex  hidden`}
               >
                 <img
-                  className='project__image rounded-2xl'
+                  className={'project__image rounded-2xl ' + props.imgStyle}
                   src={props.image}
                   alt="mobile  image"
                 />
