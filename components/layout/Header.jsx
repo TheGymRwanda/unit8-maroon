@@ -39,7 +39,7 @@ export default function Header() {
         {/* Ipad */}
         {/* desktop */}
         <div className='hidden lg:block'>
-          <div className='xs:w-21.875 md:text-1xl h-15.75 text-justify text-2xl xl:w-47.3125'>
+          <div className='xs:w-21.875 md:text-1xl h-15.75 text-justify text-2xl tracking-tighter xl:w-47.3125'>
             {/* lg:w-[47.3125rem]  xl:w-7/13 */}
             {/* justify-between lg:flex */}
             Unit➇ is a pioneering technology company specialing in decentralised technologies that creates end-to-end
