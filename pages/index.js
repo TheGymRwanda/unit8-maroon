@@ -5,6 +5,7 @@ import Header from "../components/layout/Header";
 import Expertise from "../components/section/Expertise";
 import About from "../components/section/AboutSection/About";
 import AboutMobile from "../components/section/AboutSection/AboutMobile";
+import BlogSection from "../components/section/BlogSection";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
       <Project />
       <Expertise />
       <About />
+      <BlogSection />
       {/* <AboutMobile /> */}
-      <Blog />
       <Footer />
     </>
   );
