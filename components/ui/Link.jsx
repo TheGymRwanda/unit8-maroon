@@ -2,7 +2,7 @@ export default function PageLink(props) {
   return (
     <>
             {/* Section for desktop */}
-        <a target="_blank"
+        <a 
           className={` group hidden xl:flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
           onMouseOver={() => props.showIndex()}
