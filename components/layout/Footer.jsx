@@ -7,7 +7,7 @@ export default function Footer() {
     return (
        <Wrapper>
        <div className='flex justify-start'>
-                <div className='max-w-90 md:w-full lg:w-11.8/12 xl:w-11.6/12'>
+                <div className='max-w-90 md:w-full xl:w-11.6/12'>
                     <div className="pt-6.1563 pb-12 2xl:py-3.0556 md:flex space-y-14 md:items-baseline md:justify-between items-start">
                         <div className="w-11.625 md:mt-auto md:w-13.875 font-Neufile font-normal text-xl md:text-2xl text-black tracking-0.0125">
                             Ape Unit GmbHF
