@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       colors: {
         grey: '#878787',
-
         primaryPurple: '#5602E0',
         primaryGrey: '#878787',
         secondaryGrey: '#EDEDED',
@@ -145,6 +144,7 @@ module.exports = {
         '1/2': '0.2694rem', //4.31px
         1.1213: '1.1213rem',
         38: '2.375rem',
+
         1.5: '1.5rem',
         0.3125: '0.3125rem',
         0.5: '0.2694rem', //4.31px
@@ -152,7 +152,7 @@ module.exports = {
       width: {
         semi: '50.6875rem',
         '11.6/12': '91.11%', // width on desktop --> xl
-        '11.8/12': '93%', // width on tablet  --> lg
+        '11.8/12': '92.8%', // width on tablet  --> lg
         '11.5/12': '91.37%', //width on ipad    --> md
         '10.5/12': '90%', //width on mobile
         112: '28rem', // width 448px

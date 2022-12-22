@@ -15,12 +15,12 @@ export default function Blog() {
                    <div className='hidden lg:block mt-1'>
                    <div className='flex items-center gap-3 cursor-pointer '>
                         <svg width="18" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.32446 2.47485L1.44986 10.3495L9.32446 18.2241" stroke="#9A9A9A" stroke-width="1.5" />
-                            <line y1="-0.75" x2="18.899" y2="-0.75" transform="matrix(1 0 0 -1 1.44995 9.44946)" stroke="#9A9A9A" stroke-width="1.5" />
+                            <path d="M9.32446 2.47485L1.44986 10.3495L9.32446 18.2241" stroke="#9A9A9A" strokeWidth="1.5" />
+                            <line y1="-0.75" x2="18.899" y2="-0.75" transform="matrix(1 0 0 -1 1.44995 9.44946)" stroke="#9A9A9A" strokeWidth="1.5" />
                         </svg>
                         <svg width="18" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M11.0244 2.47485L18.899 10.3495L11.0244 18.2241" stroke="#5602E0" stroke-width="1.5" />
-                            <line x1="18.8989" y1="10.1995" x2="-0.0001095" y2="10.1995" stroke="#5602E0" stroke-width="1.5" />
+                            <path d="M11.0244 2.47485L18.899 10.3495L11.0244 18.2241" stroke="#5602E0" strokeWidth="1.5" />
+                            <line x1="18.8989" y1="10.1995" x2="-0.0001095" y2="10.1995" stroke="#5602E0" strokeWidth="1.5" />
                         </svg>
 
                     </div>
