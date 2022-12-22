@@ -12,12 +12,10 @@ export default function Home() {
       <Header />
       <Project />
       <Expertise />
-      <About /> 
-      <AboutMobile />
-      <Blog/>
+      <About />
+      {/* <AboutMobile /> */}
+      <Blog />
       <Footer />
     </>
   );
-
 }
-
