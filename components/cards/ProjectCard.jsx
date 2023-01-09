@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 export default function ProjectCard(props){
     return(
       <div className='xl:h-60'>
-        <div className='sticky top-20 xl:h-31'>
+        <div className='sticky top-0 xl:h-31'>
         <motion.div initial={{opacity: 0}} animate={{opacity:1}} transition={{ease: "easeIn", duration: 0.5, delay: 0.1}}
                 className={`h-fit ml-2 mb-21.657 xl:w-47.3125 mt-10 flex-col justify-center xl:block group-hover:flex  hidden`}
               >
