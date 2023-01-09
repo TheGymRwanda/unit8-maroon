@@ -1,6 +1,6 @@
 import Blog from "../components/section/Blog";
 import Footer from "../components/section/Footer";
-import Project from "../components/section/Project";
+import Project from "../components/section/Project/Project";
 import Header from "../components/layout/Header";
 import Expertise from "../components/section/Expertise";
 import About from "../components/section/AboutSection/About";
@@ -12,12 +12,10 @@ export default function Home() {
       <Header />
       <Project />
       <Expertise />
-      <About /> 
-      <AboutMobile />
-      <Blog/>
+      <About />
+      {/* <AboutMobile /> */}
+      <Blog />
       <Footer />
     </>
   );
-
 }
-

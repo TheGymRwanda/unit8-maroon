@@ -5,8 +5,7 @@ export default function PageLink(props) {
         <a
           className={` group hidden xl:flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
-          onMouseOver={() => props.showIndex()}
-          onMouseLeave={() => props.hide()}
+          onMouseEnter={() => props.showIndex()}
         >
           <p className={`font-Neufile md:text-2xl text-xl font-normal not-italic leading-7 ${props.textStyle}`}>
             {props.text}
@@ -20,7 +19,6 @@ export default function PageLink(props) {
         <a
           className={` group xl:hidden flex cursor-pointer  w-fit items-center gap-1.5 ${props.style}`}
           href={props.link}
-          onClick={() => props.showIndex()}
         >
           <p className={`font-Neufile md:text-2xl text-xl font-normal not-italic leading-7 ${props.textStyle}`}>
             {props.text}
@@ -32,6 +30,3 @@ export default function PageLink(props) {
     </>
   );
 }
-
-
-

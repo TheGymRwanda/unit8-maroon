@@ -1,8 +1,13 @@
-import PageLink from "../ui/Link";
-import Svg from "../ui/Svg";
-import React, { useState } from "react";
-import ProjectCard from "../cards/ProjectCard";
-import Wrapper from "../wrappers/Wrapper";
+import PageLink from "../../ui/Link";
+import Svg from "../../ui/Svg";
+import React, {useState} from "react";
+import Wrapper from "../../wrappers/Wrapper";
+import ProjectMob from "./ProjectMob";
+// import MobileFunction from "./DesktopFunction";
+import ProjectCard from "../../cards/ProjectCard";
+// import DesktopFunction from "./DesktopFunction";
+
+
 export default function Project() {
   const [show, setShow] = useState(null);
   const projects = [
@@ -17,47 +22,41 @@ export default function Project() {
 
   const images = [
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/dacade.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/dacade.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/bitlipa.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/bitlipa.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/symplifi.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/symplifi.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/utu.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/utu.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/neueux.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/neueux.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/lab3.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/lab3.webp",
       text: "Peer-to-Peer learning platform"
     },
     {
-      image:
-        "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/even.webp",
+      image: "https://raw.githubusercontent.com/TheGymRwanda/unit8-red/dev/public/assets/images/even.webp",
       text: "Peer-to-Peer learning platform"
     }
   ];
 
   return (
     <Wrapper>
+      <ProjectMob/>
       <section className="mt-32 flex flex-col justify-center sm:mt-auto xl:flex xl:flex-row">
-        <div className="flex w-full justify-between">
-          <ul className="xl:w-59.25 font-Neufile flex flex-col xl:gap-0 md:gap-10">
+        <div className="flex w-full justify-between top-0">
+          <ul className="xl:w-59.25 xl:flex hidden flex-col font-Neufile md:gap-10 xl:gap-0">
             <h3 className="mb-2.75 text-xl text-dark-grey md:text-2xl">
               Project
             </h3>
@@ -81,44 +80,44 @@ export default function Project() {
                   />
                   <div className="project__line ml-2 -mt-1 hidden border-b-2 group-hover:block group-hover:border-black"></div>
                 </div>
-                <div className="-mt-9 xl:hidden ">
-                  {show === 0 && (
+                <div className="-mt-9 xl:hidden">
+                {show === 0 && (
                     <ProjectCard
                       image={images[0].image}
                       text={"P2P learning platform-1"}
                     />
                   )}
-                  {show === 1 && (
+      {show === 1 && (
                     <ProjectCard
                       image={images[1].image}
                       text={"P2P learning platform-1"}
                     />
                   )}
-                  {show === 2 && (
+      {show === 2 && (
                     <ProjectCard
                       image={images[2].image}
                       text={"P2P learning platform-2"}
                     />
                   )}
-                  {show === 3 && (
+      {show === 3 && (
                     <ProjectCard
                       image={images[3].image}
                       text={"P2P learning platform-3"}
                     />
                   )}
-                  {show === 4 && (
+      {show === 4 && (
                     <ProjectCard
                       image={images[4].image}
                       text={"P2P learning platform-4"}
                     />
                   )}{" "}
-                  {show === 5 && (
+      {show === 5 && (
                     <ProjectCard
                       image={images[5].image}
                       text={"P2P learning platform-2"}
                     />
                   )}{" "}
-                  {show === 6 && (
+      {show === 6 && (
                     <ProjectCard
                       image={images[6].image}
                       text={"P2P learning platform-2"}
@@ -128,34 +127,50 @@ export default function Project() {
               </li>
             ))}
           </ul>
+
+          <div></div>
           {show === 0 && (
-            <ProjectCard
-              className="border"
-              image={images[0].image}
-              text={images[0].text}
-            />
-          )}
-          {show === 1 && (
-            <ProjectCard
-              image={images[1].image}
-              text={"P2P learning platform-1"}
-            />
-          )}
-          {show === 2 && (
-            <ProjectCard image={images[2].image} text={images[2].text} />
-          )}
-          {show === 3 && (
-            <ProjectCard image={images[3].image} text={images[3].text} />
-          )}
-          {show === 4 && (
-            <ProjectCard image={images[4].image} text={images[4].text} />
-          )}{" "}
-          {show === 5 && (
-            <ProjectCard image={images[5].image} text={images[5].text} />
-          )}{" "}
-          {show === 6 && (
-            <ProjectCard image={images[6].image} text={images[6].text} />
-          )}
+                    <ProjectCard
+                      image={images[0].image}
+                      text={"P2P learning platform-1"}
+                    />
+                  )}
+      {show === 1 && (
+                    <ProjectCard
+                      image={images[1].image}
+                      text={"P2P learning platform-1"}
+                    />
+                  )}
+      {show === 2 && (
+                    <ProjectCard
+                      image={images[2].image}
+                      text={"P2P learning platform-2"}
+                    />
+                  )}
+      {show === 3 && (
+                    <ProjectCard
+                      image={images[3].image}
+                      text={"P2P learning platform-3"}
+                    />
+                  )}
+      {show === 4 && (
+                    <ProjectCard
+                      image={images[4].image}
+                      text={"P2P learning platform-4"}
+                    />
+                  )}{" "}
+      {show === 5 && (
+                    <ProjectCard
+                      image={images[5].image}
+                      text={"P2P learning platform-2"}
+                    />
+                  )}{" "}
+      {show === 6 && (
+                    <ProjectCard
+                      image={images[6].image}
+                      text={"P2P learning platform-2"}
+                    />
+                  )}
         </div>
       </section>
     </Wrapper>
