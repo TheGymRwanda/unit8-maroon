@@ -55,8 +55,8 @@ export default function Project() {
     <Wrapper>
       <ProjectMob/>
       <section className="mt-32 flex flex-col justify-center sm:mt-auto xl:flex xl:flex-row">
-        <div className="flex w-full justify-between">
-          <ul className="xl:w-59.25  xl:flex hidden flex-col font-Neufile md:gap-10 xl:gap-0">
+        <div className="flex w-full justify-between top-0">
+          <ul className="xl:w-59.25 xl:flex hidden flex-col font-Neufile md:gap-10 xl:gap-0">
             <h3 className="mb-2.75 text-xl text-dark-grey md:text-2xl">
               Project
             </h3>
@@ -80,7 +80,7 @@ export default function Project() {
                   />
                   <div className="project__line ml-2 -mt-1 hidden border-b-2 group-hover:block group-hover:border-black"></div>
                 </div>
-                <div className="-mt-9 xl:hidden ">
+                <div className="-mt-9 xl:hidden">
                 {show === 0 && (
                     <ProjectCard
                       image={images[0].image}
@@ -127,6 +127,8 @@ export default function Project() {
               </li>
             ))}
           </ul>
+
+          <div></div>
           {show === 0 && (
                     <ProjectCard
                       image={images[0].image}
