@@ -5,7 +5,7 @@ import { expertiseList } from "../../dataCollection/data";
 export default function Expertise() {
   return (
     <Wrapper>
-      <section className="mt-5.3125 flex justify-end md:mt-5.7375 lg:mt-6.4375 xl:mt-7.9375">
+      <section className="flex justify-end md:mt-5.7375 lg:mt-6.4375 xl:mt-7.9375">
         <div className="ml-7 flex flex-col gap-0.4375 text-left font-Neufile text-xl font-normal leading-8  tracking-spacing-sm sm:ml-0 md:gap-6 md:text-2xl xl:gap-6">
           <h4 className="text-expertiseGrey md:text-1.5 xl:text-1.5">
             Expertise
