@@ -6,12 +6,12 @@ export default function Header() {
     <Wrapper>
       <div className='space-y-1.1213 lg:flex lg:items-baseline lg:justify-between'>
         <div>
-          <h1 className='mb-5 mt-12 text-xl font-normal tracking-0.0125 text-black md:text-2xl lg:w-13.875 lg:text-2xl'>
+          <h1 className='mb-5  mt-12 text-xl font-normal tracking-0.0125 text-black md:text-2xl lg:w-13.875 lg:text-2xl'>
             Ape Unit
           </h1>
         </div>
         {/* mobile*/}
-        <div className='text-justify lg:hidden '>
+        <div className='lg:hidden'>
           <div className='xs:w-21.875 h-15.75 text-xl md:text-2xl'>
             Unit➇ is a pioneering technology and marketing services company that creates end-to-end digital experiences
             for brands such as <span className='inline-block text-primary-purple md:hidden'>Google, </span>{' '}

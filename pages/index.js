@@ -14,7 +14,7 @@ export default function Home() {
       <Project />
       <Expertise />
       <About />
-      {/* <AboutMobile /> */}
+      <AboutMobile />
       <Blog />
       <Footer />
     </>

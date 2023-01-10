@@ -8,7 +8,7 @@ export default function ProjectMob() {
   const [show, setShow] = useState('');
   return (
     <section className="mt-20 xl:hidden flex flex-col justify-center sm:mt-auto md:mb-auto -mb-20">
-      <h3 className="mb-2.75 text-xl text-dark-grey md:text-2xl">
+      <h3 className="mb-2.75  text-xl text-dark-grey md:text-2xl">
         Project
       </h3>
       <div className="flex w-full justify-between">
@@ -42,5 +42,6 @@ export default function ProjectMob() {
         </ul>
       </div>
     </section>
+   
   );
 }

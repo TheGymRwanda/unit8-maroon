@@ -7,7 +7,7 @@ export default function PageLink(props) {
           href={props.link}
           onMouseEnter={props.showIndex}
         >
-          <p className={`font-Neufile md:text-2xl text-xl font-normal not-italic leading-7 ${props.textStyle}`}>
+          <p className={`font-Neufile sm:text-md md:text-2xl text-xl font-normal not-italic leading-7 ${props.textStyle}`}>
             {props.text}
           </p>
           <div className={`relative ${props.imageWrapperStyle}`}>

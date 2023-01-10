@@ -5,7 +5,7 @@ export function OneBlock({ title, text, isOpened, expand }) {
   return (
     <div className="flex flex-col ">
       <div
-        onClick={() => expand()}
+        onClick={expand}
         className={`  border-b-1 flex  w-full cursor-pointer justify-between border-black transition-all   duration-300 ${
           isOpened
             ? "mb-5.5 border-b border-primary-purple"
