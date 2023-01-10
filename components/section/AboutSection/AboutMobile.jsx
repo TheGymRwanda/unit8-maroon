@@ -10,9 +10,6 @@ export default function AboutMobile() {
 
       <Wrapper>
         <div className="mt-20 mb-20 flex flex-col  gap-8  md:hidden">
-
-        {[1,2,3].map((e,idx) => {
-          return (
             <OneBlock
             key={0}
             title="About Us"
@@ -41,11 +38,8 @@ export default function AboutMobile() {
             </div>
             isOpened={activeTab === 0}
             expand={() => setActiveTab(activeTab === 0 ? -1 : 0)}
-          />
-          )
-        })}
-          
-          {/* <OneBlock
+          />  
+          <OneBlock
             key={1}
             title="What we do"
             text=<div>
@@ -97,7 +91,7 @@ export default function AboutMobile() {
             </div>
             isOpened={activeTab === 2}
             expand={() => setActiveTab(activeTab === 2 ? -1 : 2)}
-          /> */}
+          />
         </div>
       </Wrapper>
     </>
